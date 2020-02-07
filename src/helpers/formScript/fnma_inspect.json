@@ -1,0 +1,7923 @@
+[
+  {
+    "id": "67128589",
+    "name": "root",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "77865621",
+        "name": "version"
+      },
+      {
+        "id": "27756057",
+        "name": "caseFileID"
+      },
+      {
+        "id": "07745167",
+        "name": "institutionID"
+      },
+      {
+        "id": "17645544",
+        "name": "pdaSubmitterEntity"
+      },
+      {
+        "id": "78527522",
+        "name": "propertyDataCollectorName"
+      },
+      {
+        "id": "26252868",
+        "name": "propertyDataCollectorType"
+      },
+      {
+        "id": "21881752",
+        "name": "stateCredentialID"
+      },
+      {
+        "id": "02462547",
+        "name": "licenseState"
+      },
+      {
+        "id": "44876062",
+        "name": "licenseExpiration"
+      },
+      {
+        "id": "15822828",
+        "name": "property"
+      }
+    ]
+  },
+  {
+    "id": "15822828",
+    "name": "property",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "62817572",
+        "name": "site"
+      },
+      {
+        "id": "71147866",
+        "name": "address"
+      },
+      {
+        "id": "16667824",
+        "name": "identification"
+      },
+      {
+        "id": "28050481",
+        "name": "structures"
+      },
+      {
+        "id": "58667715",
+        "name": "propertyAnalysis"
+      },
+      {
+        "id": "87178168",
+        "name": "propertyOccupied"
+      },
+      {
+        "id": "68875178",
+        "name": "lockBoxPresent"
+      },
+      {
+        "id": "70767262",
+        "name": "pud"
+      },
+      {
+        "id": "88885287",
+        "name": "basement"
+      },
+      {
+        "id": "81278276",
+        "name": "appliances"
+      },
+      {
+        "id": "95578672",
+        "name": "attic"
+      },
+      {
+        "id": "78716157",
+        "name": "foundation"
+      },
+      {
+        "id": "20268665",
+        "name": "amenities"
+      },
+      {
+        "id": "78028618",
+        "name": "exterior"
+      },
+      {
+        "id": "91899712",
+        "name": "interior"
+      }
+    ],
+    "photos": [
+      "15125897",
+      "25646599"
+    ]
+  },
+  {
+    "id": "15125897",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": true,
+    "labelText": "Street Left",
+    "photoCaption": "Subject Street",
+    "photoType": "STREET_LEFT"
+  },
+  {
+    "id": "25646599",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": true,
+    "labelText": "Street Right",
+    "photoCaption": "Street Right",
+    "photoType": "STREET_RIGHT"
+  },
+  {
+    "id": "91899712",
+    "name": "interior",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "60185759",
+        "name": "floors"
+      },
+      {
+        "id": "29772586",
+        "name": "floorsInfluence"
+      },
+      {
+        "id": "21125876",
+        "name": "walls"
+      },
+      {
+        "id": "68800662",
+        "name": "wallsInfluence"
+      },
+      {
+        "id": "90986767",
+        "name": "trimFinish"
+      },
+      {
+        "id": "09618779",
+        "name": "trimFinishInfluence"
+      },
+      {
+        "id": "86168219",
+        "name": "bathFloor"
+      },
+      {
+        "id": "21766806",
+        "name": "bathFloorInfluence"
+      },
+      {
+        "id": "06776168",
+        "name": "bathWainscot"
+      },
+      {
+        "id": "59189796",
+        "name": "bathWainscotInfluence"
+      },
+      {
+        "id": "17897887",
+        "name": "comment"
+      }
+    ]
+  },
+  {
+    "id": "17897887",
+    "name": "comment",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Interior Comments",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "59189796",
+    "name": "bathWainscotInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "06776168",
+    "name": "bathWainscot",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Bath Wainscot",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Ceramic Tile",
+      "Ceramic/Fiberglass",
+      "Corian",
+      "Drywall",
+      "Fiberglass",
+      "Formica",
+      "Granite",
+      "Marble",
+      "Marlite",
+      "Masonite",
+      "Mirrored",
+      "Sheetrock",
+      "Solid Plastic",
+      "Tile",
+      "Wall Paper",
+      "Wood"
+    ],
+    "valueOptions": [
+      "",
+      "Crmc Tile",
+      "Crmc/Fibgl",
+      "Corian",
+      "Drywall",
+      "Fiberglass",
+      "Formica",
+      "Granite",
+      "Marble",
+      "Marlite",
+      "Masonite",
+      "Mirrored",
+      "Sheetrock",
+      "Solid Plastic",
+      "Tile",
+      "Wall Paper",
+      "Wood"
+    ]
+  },
+  {
+    "id": "21766806",
+    "name": "bathFloorInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "86168219",
+    "name": "bathFloor",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Bath Floor",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Brick",
+      "Carpet",
+      "Carpet/Vinyl",
+      "Composition Sheet",
+      "Concrete",
+      "Cork",
+      "Dirt",
+      "Exposed Aggregate",
+      "Flagstone",
+      "Granite",
+      "Hardwood/Carpet",
+      "Hardwood/Vinyl",
+      "Hardwood",
+      "Linoleum",
+      "Marble",
+      "Parquet",
+      "Softwood",
+      "Stone",
+      "Tile board",
+      "Tile",
+      "Tongue and Groove"
+    ],
+    "valueOptions": [
+      "Brick",
+      "Carpet",
+      "Crpt/Vnyl",
+      "Compo Sht",
+      "Concrete",
+      "Cork",
+      "Dirt",
+      "Expsd Agg",
+      "Flagstone",
+      "Granite",
+      "Hdwd/Crpt",
+      "Hdwd/Vnyl",
+      "Hardwood",
+      "Linoleum",
+      "Marble",
+      "Parquet",
+      "Softwood",
+      "Stone",
+      "Tile board",
+      "Tile",
+      "T and G"
+    ]
+  },
+  {
+    "id": "09618779",
+    "name": "trimFinishInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "90986767",
+    "name": "trimFinish",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Trim/Finish",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Beam Ceiling",
+      "Chair Rail",
+      "Crown Molding",
+      "Metal",
+      "Plastic",
+      "Vinyl",
+      "Wood/Paint",
+      "Wood"
+    ],
+    "valueOptions": [
+      "Beam Ceiling",
+      "Chair Rail",
+      "Crown Molding",
+      "Metal",
+      "Plastic",
+      "Vinyl",
+      "Wood/Paint",
+      "Wood"
+    ]
+  },
+  {
+    "id": "68800662",
+    "name": "wallsInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "21125876",
+    "name": "walls",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Walls",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Adobe",
+      "Block Paneling",
+      "Brick",
+      "Carpet",
+      "Concrete",
+      "Cork",
+      "Drywall",
+      "Fabric",
+      "Glass Block",
+      "Gypsum Board",
+      "Hardwood",
+      "Lock",
+      "Log",
+      "Mirrored",
+      "Open Studs",
+      "Painted",
+      "Plaster",
+      "Plywood",
+      "Sheetrock",
+      "Skim Coat",
+      "Stone",
+      "Stucco",
+      "Textured",
+      "Tile",
+      "Tongue and Groove",
+      "Wallpaper",
+      "Wood"
+    ],
+    "valueOptions": [
+      "Adobe",
+      "Blk Panel",
+      "Brick",
+      "Carpet",
+      "Concrete",
+      "Cork",
+      "Drywall",
+      "Fabric",
+      "Glass Blk",
+      "Gyps Brd",
+      "Hardwood",
+      "Lock",
+      "Log",
+      "Mirrored",
+      "Open Studs",
+      "Painted",
+      "Plaster",
+      "Plywood",
+      "Sheetrock",
+      "Skim Coat",
+      "Stone",
+      "Stucco",
+      "Textured",
+      "Tile",
+      "T and G",
+      "Wall",
+      "Wood"
+    ]
+  },
+  {
+    "id": "29772586",
+    "name": "floorsInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "60185759",
+    "name": "floors",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Floors",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Brick",
+      "Carpet",
+      "Carpet/Vinyl",
+      "Composition Sheet",
+      "Concrete",
+      "Cork",
+      "Dirt",
+      "Exposed Aggregate",
+      "Flagstone",
+      "Granite",
+      "Hardwood/Carpet",
+      "Hardwood/Vinyl",
+      "Hardwood",
+      "Linoleum",
+      "Marble",
+      "Parquet",
+      "Softwood",
+      "Stone",
+      "Tile board",
+      "Tile",
+      "Tongue and Groove"
+    ],
+    "valueOptions": [
+      "",
+      "Brick",
+      "Carpet",
+      "Crpt/Vnyl",
+      "Compo Sht",
+      "Concrete",
+      "Cork",
+      "Dirt",
+      "Expsd Agg",
+      "Flagstone",
+      "Granite",
+      "Hdwd/Crpt",
+      "Hdwd/Vnyl",
+      "Hardwood",
+      "Linoleum",
+      "Marble",
+      "Parquet",
+      "Softwood",
+      "Stone",
+      "Tile board",
+      "Tile",
+      "T and G"
+    ]
+  },
+  {
+    "id": "78028618",
+    "name": "exterior",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "91252296",
+        "name": "stories"
+      },
+      {
+        "id": "27867987",
+        "name": "dimensions"
+      },
+      {
+        "id": "92125797",
+        "name": "foundationWalls"
+      },
+      {
+        "id": "86728797",
+        "name": "foundationWallsInfluence"
+      },
+      {
+        "id": "22780829",
+        "name": "exteriorWalls"
+      },
+      {
+        "id": "11605286",
+        "name": "exteriorWallsInfluence"
+      },
+      {
+        "id": "26716818",
+        "name": "roofSurface"
+      },
+      {
+        "id": "27228688",
+        "name": "roofSurfaceCondition"
+      },
+      {
+        "id": "11809777",
+        "name": "gutterDownspouts"
+      },
+      {
+        "id": "17868886",
+        "name": "gutterDownspoutsInfluence"
+      },
+      {
+        "id": "79862606",
+        "name": "windowType"
+      },
+      {
+        "id": "21272798",
+        "name": "windowTypeInfluence"
+      },
+      {
+        "id": "79628062",
+        "name": "stormSashInsulated"
+      },
+      {
+        "id": "70625866",
+        "name": "stormSashInsulatedInfluence"
+      },
+      {
+        "id": "11868956",
+        "name": "screens"
+      },
+      {
+        "id": "17002171",
+        "name": "screensInfluence"
+      },
+      {
+        "id": "78610167",
+        "name": "comment"
+      }
+    ]
+  },
+  {
+    "id": "78610167",
+    "name": "comment",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Exterior Comments",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "17002171",
+    "name": "screensInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "11868956",
+    "name": "screens",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Screens",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Aluminum",
+      "Cloth",
+      "Metal",
+      "Nylon"
+    ],
+    "valueOptions": [
+      "Aluminum",
+      "Cloth",
+      "Metal",
+      "Nylon"
+    ]
+  },
+  {
+    "id": "70625866",
+    "name": "stormSashInsulatedInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "79628062",
+    "name": "stormSashInsulated",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Storm Sash/Insulated",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Aluminum Frame",
+      "Cloth",
+      "Combination",
+      "Double Pane",
+      "Dual Glazed",
+      "Fiberglass",
+      "Metal",
+      "Nylon",
+      "Plastic",
+      "Plywood",
+      "Sun Screen",
+      "Thermal Pane",
+      "Vinyl",
+      "Wood Frame"
+    ],
+    "valueOptions": [
+      "Alum Frm",
+      "Cloth",
+      "Combo",
+      "Dbl Pn",
+      "Dual Glz",
+      "Fiberglass",
+      "Metal",
+      "Nylon",
+      "Plastic",
+      "Plywood",
+      "Sun Screen",
+      "Therm Pn",
+      "Vinyl",
+      "Wd Frame"
+    ]
+  },
+  {
+    "id": "21272798",
+    "name": "windowTypeInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "79862606",
+    "name": "windowType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Window Type",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Alum. Casement",
+      "Awning Fixed",
+      "Barn Sash",
+      "Bay",
+      "Bow",
+      "Clerestory",
+      "Crank Out",
+      "Custom",
+      "Double Hung",
+      "Fixed Garden",
+      "Glass Block",
+      "Hopper",
+      "Jalousies",
+      "Leaded Glass",
+      "Metal DBL Pane",
+      "Palladium",
+      "Pivoted",
+      "Plastic",
+      "Projected",
+      "Siding",
+      "Single Hung",
+      "Stained Glass",
+      "Stationary",
+      "Steel Casement",
+      "Steel Sash",
+      "Thermal Pane",
+      "Vinyl",
+      "Wood Clad",
+      "Wood Dbl Pane",
+      "Wood Encasement"
+    ],
+    "valueOptions": [
+      "Alum Csmnt",
+      "Awning Fxd",
+      "Barn Sash",
+      "Bay",
+      "Bow",
+      "Clerestory",
+      "Crank Out",
+      "Custom",
+      "Dbl Hung",
+      "Fxd Grdn",
+      "Glass Blk",
+      "Hopper",
+      "Jalousies",
+      "Lead Glass",
+      "Mtl Dbl Pn",
+      "Palladium",
+      "Pivoted",
+      "Plastic",
+      "Projected",
+      "Siding",
+      "Sngl Hung",
+      "Std Glass",
+      "Stationary",
+      "Stl Csmnt",
+      "Steel Sash",
+      "Therm Pn",
+      "Vinyl",
+      "Wood Clad",
+      "Wd Dbl Pn",
+      "Wd Csmnt"
+    ]
+  },
+  {
+    "id": "17868886",
+    "name": "gutterDownspoutsInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "11809777",
+    "name": "gutterDownspouts",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Gutters/Downspouts",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Aluminum",
+      "Copper",
+      "Galvanized Steel",
+      "Iron",
+      "PVC",
+      "Plastic",
+      "Tin",
+      "Vinyl"
+    ],
+    "valueOptions": [
+      "Alum",
+      "Copper",
+      "Glv Stel",
+      "Iron",
+      "PVC",
+      "Plastic",
+      "Tin",
+      "Vinyl"
+    ]
+  },
+  {
+    "id": "27228688",
+    "name": "roofSurfaceCondition",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "26716818",
+    "name": "roofSurface",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Roof Surface",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Aluminum Shake",
+      "Asbestos Shingle",
+      "Asphalt Shingle",
+      "Cement Fiber Shingle",
+      "Clay Tile",
+      "Composition Shingle",
+      "Concrete Tile",
+      "Copper",
+      "Corrugated Iron",
+      "Corrugated Steel",
+      "Fiberglass Shingles",
+      "Metal Shingles",
+      "Mission Tile",
+      "Plastic Tile",
+      "Tock",
+      "Slate",
+      "Spanish Tile",
+      "Synthetic Tile",
+      "Tar and Gravel",
+      "Thatch",
+      "Tin",
+      "Wood Shake",
+      "Wood Shingles"
+    ],
+    "valueOptions": [
+      "Alum Shake",
+      "Asb Shgle",
+      "Asph Shgle",
+      "Cm Fbr Shgle",
+      "Clay Tile",
+      "Compst Shgle",
+      "Con Tile",
+      "Copper",
+      "Corrug Iron",
+      "Corrug Stl",
+      "Fib Shgle",
+      "Metal Shgle",
+      "Miss Tile",
+      "Plastic Tile",
+      "Tock",
+      "Slate",
+      "Span Tile",
+      "Syth Tile",
+      "Tar & Grvl",
+      "Thatch",
+      "Tin",
+      "Wd Shke",
+      "Wd Shgle"
+    ]
+  },
+  {
+    "id": "11605286",
+    "name": "exteriorWallsInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "22780829",
+    "name": "exteriorWalls",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exterior Walls",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Adobe",
+      "Artificial Stone",
+      "Asbestos Shingle",
+      "Brick and Stone",
+      "Brick/Wood Siding",
+      "Brick",
+      "Cedar",
+      "Cement Shingles",
+      "Cinder Block",
+      "Clapboard",
+      "Clay Tile",
+      "Composition Siding",
+      "Concrete Block",
+      "Dryvit",
+      "Glass and Steel",
+      "Hardboard Siding",
+      "Iron",
+      "Log",
+      "Masonite",
+      "Masonry Veneer",
+      "Masonry",
+      "Metal Siding",
+      "Native Stone",
+      "Poured Concrete",
+      "Precast Concrete",
+      "Pressboard",
+      "Stone",
+      "Stucco and Wood",
+      "Synthetic Plaster",
+      "Tin",
+      "Veneer",
+      "Vinyl Siding",
+      "Wood Shake",
+      "Wood Shingles",
+      "Wood Siding"
+    ],
+    "valueOptions": [
+      "Adobe",
+      "Atrifc Stn",
+      "Asb Shgle",
+      "Brk & Stone",
+      "Brk/Wood Sid",
+      "Brick",
+      "Cedar",
+      "Cmt Shgle",
+      "Cinder Blk",
+      "Clapboard",
+      "Clay Tile",
+      "Compst Sid",
+      "Con Blk",
+      "Dryvit",
+      "Glass and Steel",
+      "Hdbrd Sid",
+      "Iron",
+      "Log",
+      "Masonite",
+      "Msny Vner",
+      "Masonry",
+      "Metal Siding",
+      "Native Stone",
+      "Pourd Con",
+      "Precst Con",
+      "Pressboard",
+      "Stone",
+      "Stuc & Wd",
+      "Synth Plstr",
+      "Tin",
+      "Veneer",
+      "Vinyl Siding",
+      "Wd Shake",
+      "Wd Shgle",
+      "Wd Sid"
+    ]
+  },
+  {
+    "id": "86728797",
+    "name": "foundationWallsInfluence",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "New",
+      "Good",
+      "Average",
+      "Fair",
+      "Poor",
+      "Damaged",
+      "Obsolete"
+    ],
+    "valueOptions": [
+      "New",
+      "Good",
+      "Avg",
+      "Fair",
+      "Poor",
+      "Dmgd",
+      "Obsolete"
+    ]
+  },
+  {
+    "id": "92125797",
+    "name": "foundationWalls",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Foundation Walls",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Block and Beam",
+      "Board and Batten",
+      "Brick",
+      "Cinder Block",
+      "Concrete Block",
+      "Dirt",
+      "Elevated",
+      "Fieldstone",
+      "Grade Beam",
+      "Monolithic",
+      "Perimeter",
+      "Pier and Beam",
+      "Pier Only",
+      "Pilings",
+      "Poured Concrete",
+      "Slab",
+      "Steel",
+      "Stem Wall",
+      "Stone",
+      "Wood"
+    ],
+    "valueOptions": [
+      "Blk & Beam",
+      "Brd & Batn",
+      "Brick",
+      "Cinder Blk",
+      "Con Blk",
+      "Dirt",
+      "Elevated",
+      "Fieldstone",
+      "Grade Beam",
+      "Monolithic",
+      "Perimeter",
+      "Pier & Beam",
+      "Pier Only",
+      "Pilings",
+      "Pourd Con",
+      "Slab",
+      "Steel",
+      "Stem Wall",
+      "Stone",
+      "Wood"
+    ]
+  },
+  {
+    "id": "27867987",
+    "name": "dimensions",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Site Dimensions",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "91252296",
+    "name": "stories",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Stories",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "20268665",
+    "name": "amenities",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "68267266",
+        "name": "pool"
+      },
+      {
+        "id": "02792818",
+        "name": "poolCount"
+      },
+      {
+        "id": "06888568",
+        "name": "spa"
+      },
+      {
+        "id": "11186026",
+        "name": "outdoorKitchen"
+      },
+      {
+        "id": "02777827",
+        "name": "solarPanel"
+      },
+      {
+        "id": "72187267",
+        "name": "backupGenerator"
+      },
+      {
+        "id": "86227882",
+        "name": "patioDeck"
+      },
+      {
+        "id": "08707261",
+        "name": "patioDeckCount"
+      },
+      {
+        "id": "01227895",
+        "name": "coveredPatioDeck"
+      },
+      {
+        "id": "67180700",
+        "name": "coveredPatioDeckCount"
+      },
+      {
+        "id": "81521666",
+        "name": "firePlace"
+      },
+      {
+        "id": "16612786",
+        "name": "firePlaceCount"
+      },
+      {
+        "id": "25967122",
+        "name": "threeSeasonsPorch"
+      },
+      {
+        "id": "07762606",
+        "name": "balcony"
+      },
+      {
+        "id": "69272868",
+        "name": "woodstove"
+      },
+      {
+        "id": "88229680",
+        "name": "woodstoveCount"
+      },
+      {
+        "id": "18282027",
+        "name": "fence"
+      },
+      {
+        "id": "01905788",
+        "name": "fenceCount"
+      },
+      {
+        "id": "57762881",
+        "name": "other"
+      },
+      {
+        "id": "68281826",
+        "name": "otherCount"
+      },
+      {
+        "id": "96077158",
+        "name": "comment"
+      }
+    ]
+  },
+  {
+    "id": "96077158",
+    "name": "comment",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Amenities Comments",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "68281826",
+    "name": "otherCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Desc of Other",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "57762881",
+    "name": "other",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Other",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "01905788",
+    "name": "fenceCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Desc of Fences",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "18282027",
+    "name": "fence",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Fence",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "88229680",
+    "name": "woodstoveCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Number of Woodstoves",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "69272868",
+    "name": "woodstove",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Woodstove",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "07762606",
+    "name": "balcony",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Balcony",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "25967122",
+    "name": "threeSeasonsPorch",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Three Season Porch",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "16612786",
+    "name": "firePlaceCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Number of Fireplaces",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "81521666",
+    "name": "firePlace",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Fireplaces",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "67180700",
+    "name": "coveredPatioDeckCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Desc of Covered Patio / Porches",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "01227895",
+    "name": "coveredPatioDeck",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Covered Patio / Porch",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "08707261",
+    "name": "patioDeckCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Desc of Patio / Deck",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "86227882",
+    "name": "patioDeck",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Patio / Deck",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "72187267",
+    "name": "backupGenerator",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Back-up Generator",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "02777827",
+    "name": "solarPanel",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Solar Panels",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "11186026",
+    "name": "outdoorKitchen",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Outdoor Kitchen",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "06888568",
+    "name": "spa",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Spa",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "02792818",
+    "name": "poolCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Desc. of Pools",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "68267266",
+    "name": "pool",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Pool",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "78716157",
+    "name": "foundation",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "89970916",
+        "name": "concreteSlab"
+      },
+      {
+        "id": "90067527",
+        "name": "crawlSpace"
+      },
+      {
+        "id": "68186259",
+        "name": "evidenceOfInfestation"
+      },
+      {
+        "id": "28558896",
+        "name": "apparentDampness"
+      },
+      {
+        "id": "08808016",
+        "name": "evidenceOfSettlingCracks"
+      },
+      {
+        "id": "27688252",
+        "name": "comments"
+      }
+    ]
+  },
+  {
+    "id": "27688252",
+    "name": "comments",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Basement Comments",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "08808016",
+    "name": "evidenceOfSettlingCracks",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Evidence of Settling Cracks",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "28558896",
+    "name": "apparentDampness",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Apparent Dampness",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "68186259",
+    "name": "evidenceOfInfestation",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Evidence of Infestation",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "90067527",
+    "name": "crawlSpace",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Crawl Space",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "89970916",
+    "name": "concreteSlab",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Concrete Slab",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "95578672",
+    "name": "attic",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "85778787",
+        "name": "atticPresent"
+      },
+      {
+        "id": "27272827",
+        "name": "heated"
+      },
+      {
+        "id": "61565787",
+        "name": "dropStair"
+      },
+      {
+        "id": "07781279",
+        "name": "stairs"
+      },
+      {
+        "id": "28691877",
+        "name": "floor"
+      },
+      {
+        "id": "17957602",
+        "name": "scuttle"
+      },
+      {
+        "id": "72828282",
+        "name": "finished"
+      },
+      {
+        "id": "07686858",
+        "name": "comments"
+      }
+    ]
+  },
+  {
+    "id": "07686858",
+    "name": "comments",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Basement Comments",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "72828282",
+    "name": "finished",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Finished",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "17957602",
+    "name": "scuttle",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Scuttle",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "28691877",
+    "name": "floor",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Floor",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "07781279",
+    "name": "stairs",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Stairs",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "61565787",
+    "name": "dropStair",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Drop Stair",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "27272827",
+    "name": "heated",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Heated",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "85778787",
+    "name": "atticPresent",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Attic Present?",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "81278276",
+    "name": "appliances",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "27211857",
+        "name": "stoveType"
+      },
+      {
+        "id": "79766885",
+        "name": "rangeOven"
+      },
+      {
+        "id": "68975056",
+        "name": "cooktopBurner"
+      },
+      {
+        "id": "97082900",
+        "name": "refrigerator"
+      },
+      {
+        "id": "02886887",
+        "name": "freezer"
+      },
+      {
+        "id": "81271189",
+        "name": "garbageDisposal"
+      },
+      {
+        "id": "99872666",
+        "name": "dishwasher"
+      },
+      {
+        "id": "20572578",
+        "name": "trashCompactor"
+      },
+      {
+        "id": "67857956",
+        "name": "potFiller"
+      },
+      {
+        "id": "51510898",
+        "name": "ventFan"
+      },
+      {
+        "id": "80121875",
+        "name": "builtInMicrowave"
+      },
+      {
+        "id": "76825502",
+        "name": "walkInPantry"
+      },
+      {
+        "id": "07719987",
+        "name": "butlersPantry"
+      },
+      {
+        "id": "17887886",
+        "name": "washerDryer"
+      },
+      {
+        "id": "65018821",
+        "name": "comments"
+      }
+    ]
+  },
+  {
+    "id": "65018821",
+    "name": "comments",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Basement Comments",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "17887886",
+    "name": "washerDryer",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Washer/Dryer",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "07719987",
+    "name": "butlersPantry",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Butler's Pantry",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "76825502",
+    "name": "walkInPantry",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Walk in Pantry",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "80121875",
+    "name": "builtInMicrowave",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Built-in Microwave",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "51510898",
+    "name": "ventFan",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Vent Fan",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "67857956",
+    "name": "potFiller",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Pot Filler",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "20572578",
+    "name": "trashCompactor",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Trash Compactor",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "99872666",
+    "name": "dishwasher",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Dishwasher",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "81271189",
+    "name": "garbageDisposal",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Garbage Disposal",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "02886887",
+    "name": "freezer",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Freezer",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "97082900",
+    "name": "refrigerator",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Refrigerator",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "68975056",
+    "name": "cooktopBurner",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Cooktop Burner(s)",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "79766885",
+    "name": "rangeOven",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Range/Oven(s)",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "27211857",
+    "name": "stoveType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Stove Type",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Gas",
+      "Electric"
+    ],
+    "valueOptions": [
+      "Gas",
+      "Electric"
+    ]
+  },
+  {
+    "id": "88885287",
+    "name": "basement",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "08208285",
+        "name": "basementType"
+      },
+      {
+        "id": "88728820",
+        "name": "totalArea"
+      },
+      {
+        "id": "81278522",
+        "name": "finishedAreaPercent"
+      },
+      {
+        "id": "65118885",
+        "name": "exitType"
+      },
+      {
+        "id": "51582118",
+        "name": "recreationRooms"
+      },
+      {
+        "id": "57718517",
+        "name": "bedrooms"
+      },
+      {
+        "id": "21568527",
+        "name": "fullBathrooms"
+      },
+      {
+        "id": "87861800",
+        "name": "halfBathrooms"
+      },
+      {
+        "id": "70522858",
+        "name": "otherRooms"
+      },
+      {
+        "id": "02275625",
+        "name": "apparentDampness"
+      },
+      {
+        "id": "18677018",
+        "name": "sumpPumpInPlace"
+      },
+      {
+        "id": "58587628",
+        "name": "hasBathrooms"
+      },
+      {
+        "id": "67868767",
+        "name": "secondEgressPresent"
+      },
+      {
+        "id": "62877170",
+        "name": "hasBedrooms"
+      },
+      {
+        "id": "82676588",
+        "name": "kitchen"
+      },
+      {
+        "id": "72687275",
+        "name": "walkOut"
+      },
+      {
+        "id": "86578528",
+        "name": "walkUp"
+      },
+      {
+        "id": "16526866",
+        "name": "comments"
+      }
+    ]
+  },
+  {
+    "id": "16526866",
+    "name": "comments",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Basement Comments",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "86578528",
+    "name": "walkUp",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Walk Up",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "72687275",
+    "name": "walkOut",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Walk Out",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "82676588",
+    "name": "kitchen",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Kitchen",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "62877170",
+    "name": "hasBedrooms",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Bedroom(s)",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "67868767",
+    "name": "secondEgressPresent",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Secondary Egress present",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "58587628",
+    "name": "hasBathrooms",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Bathroom(s)",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "18677018",
+    "name": "sumpPumpInPlace",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Sump pump in place",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "02275625",
+    "name": "apparentDampness",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Apparent Dampness",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "70522858",
+    "name": "otherRooms",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Other Rooms",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "87861800",
+    "name": "halfBathrooms",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Half Bathrooms",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "21568527",
+    "name": "fullBathrooms",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Full Bathrooms",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "57718517",
+    "name": "bedrooms",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Bedrooms",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "51582118",
+    "name": "recreationRooms",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Recreation Rooms",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "65118885",
+    "name": "exitType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exit Type",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Walk Out",
+      "Walk Up",
+      "Interior Only"
+    ],
+    "valueOptions": [
+      "Walk Out",
+      "Walk Up",
+      "Interior Only"
+    ]
+  },
+  {
+    "id": "81278522",
+    "name": "finishedAreaPercent",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Finished Area %",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "88728820",
+    "name": "totalArea",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Total Area",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "08208285",
+    "name": "basementType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Basement Type",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "None",
+      "Full Basement",
+      "Partial Basement"
+    ],
+    "valueOptions": [
+      "0",
+      "Full Basement",
+      "Partial Basement"
+    ]
+  },
+  {
+    "id": "70767262",
+    "name": "pud",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "82822685",
+        "name": "occupant"
+      },
+      {
+        "id": "87768685",
+        "name": "pudHoa"
+      },
+      {
+        "id": "62252207",
+        "name": "hoaAmount"
+      },
+      {
+        "id": "78167876",
+        "name": "hoaFrequency"
+      }
+    ]
+  },
+  {
+    "id": "78167876",
+    "name": "hoaFrequency",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "HOA Frequency",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Per Month",
+      "Per Year"
+    ],
+    "valueOptions": [
+      "MONTH",
+      "ANNUAL"
+    ]
+  },
+  {
+    "id": "62252207",
+    "name": "hoaAmount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "HOA $",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "87768685",
+    "name": "pudHoa",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "PUD/HOA",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "82822685",
+    "name": "occupant",
+    "fieldType": "dropdown",
+    "isRequired": true,
+    "labelText": "Occupant",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Owner",
+      "Tenant",
+      "Vacant"
+    ],
+    "valueOptions": [
+      "OWNER",
+      "TENANT",
+      "VACANT"
+    ]
+  },
+  {
+    "id": "68875178",
+    "name": "lockBoxPresent",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Lock Box Present?",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if propertyOccupied is false."
+    ]
+  },
+  {
+    "id": "87178168",
+    "name": "propertyOccupied",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "58667715",
+    "name": "propertyAnalysis",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "26126856",
+        "name": "propertyConditionRating"
+      },
+      {
+        "id": "75722821",
+        "name": "repairEstimate"
+      },
+      {
+        "id": "65867808",
+        "name": "propertyQualityRating"
+      }
+    ]
+  },
+  {
+    "id": "65867808",
+    "name": "propertyQualityRating",
+    "fieldType": "dropdown",
+    "isRequired": true,
+    "labelText": "Quality Rating",
+    "validators": [
+      "number"
+    ],
+    "dataType": "integer",
+    "options": [
+      "Q1 - Exceptionally High (High grade model)",
+      "Q2 - Very High, Custom (High quality development)",
+      "Q3 - Above Standard (upgraded materials and finishes)",
+      "Q4 - Standard (Builder grade stock materials)",
+      "Q5 - Below Standard (Meets minimal building codes)",
+      "Q6 - Very Poor (Low quality materials, non-conforming)"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "id": "75722821",
+    "name": "repairEstimate",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Repair Estimate",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "26126856",
+    "name": "propertyConditionRating",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Condition Rating",
+    "validators": [
+      "number"
+    ],
+    "dataType": "integer",
+    "options": [
+      "C1 - New Recently Constructed (New construction)",
+      "C2 - Almost New, Renovated (No repairs or updates required)",
+      "C3 - Well Maintained (Limited depreciation, recently updated)",
+      "C4 - Adequately Maintained (Requires minimal repairs/updating)",
+      "C5 - Poorly Maintained (Obvious repairs required)",
+      "C6 - Severe Damage (Substantial repairs required)"
+    ],
+    "valueOptions": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "requiredby": [
+      "Conditionally required if structureType is DWELLING and constructionStatus is COMPLETE."
+    ]
+  },
+  {
+    "id": "28050481",
+    "name": "structures",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "87627717",
+        "name": "Structure"
+      }
+    ]
+  },
+  {
+    "id": "87627717",
+    "name": "Structure",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "56788547",
+        "name": "constructionType"
+      },
+      {
+        "id": "55766880",
+        "name": "units"
+      },
+      {
+        "id": "70606675",
+        "name": "attachmentType"
+      },
+      {
+        "id": "82888125",
+        "name": "structureType"
+      },
+      {
+        "id": "14612568",
+        "name": "constructionStatus"
+      },
+      {
+        "id": "40867587",
+        "name": "exteriorDeficiencies"
+      },
+      {
+        "id": "65768271",
+        "name": "exteriorFeatures"
+      },
+      {
+        "id": "84116275",
+        "name": "exteriorUpdates"
+      },
+      {
+        "id": "68720587",
+        "name": "mechanicalDeficiencies"
+      },
+      {
+        "id": "86820818",
+        "name": "yearBuilt"
+      },
+      {
+        "id": "25561716",
+        "name": "yearBuiltEstimate"
+      },
+      {
+        "id": "08467840",
+        "name": "heatingSystems"
+      },
+      {
+        "id": "81716726",
+        "name": "coolingSystems"
+      },
+      {
+        "id": "72677200",
+        "name": "uniformHeatingAndCoolingIndicator"
+      },
+      {
+        "id": "50015771",
+        "name": "uniformHeatingAndCoolingDescription"
+      }
+    ],
+    "photos": [
+      "08288799",
+      "31131383",
+      "22725726",
+      "13335755",
+      "31153322",
+      "76605765",
+      "26196987",
+      "86887554"
+    ]
+  },
+  {
+    "id": "08288799",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": true,
+    "labelText": "Structure Front",
+    "photoCaption": "Structure Front",
+    "photoType": "STRUCTURE_FRONT"
+  },
+  {
+    "id": "31131383",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": true,
+    "labelText": "Structure Rear",
+    "photoCaption": "Structure Rear",
+    "photoType": "STRUCTURE_REAR"
+  },
+  {
+    "id": "22725726",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Structure Left",
+    "photoCaption": "Structure Left",
+    "photoType": "STRUCTURE_LEFT_SIDE"
+  },
+  {
+    "id": "13335755",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Structure Right",
+    "photoCaption": "Structure Right",
+    "photoType": "STRUCTURE_RIGHT_SIDE"
+  },
+  {
+    "id": "31153322",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Front View",
+    "photoCaption": "Structure Front View",
+    "photoType": "VIEW_FRONT"
+  },
+  {
+    "id": "76605765",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Rear View",
+    "photoCaption": "Structure Rear View",
+    "photoType": "VIEW_REAR"
+  },
+  {
+    "id": "26196987",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Left View",
+    "photoCaption": "Structure Left View",
+    "photoType": "VIEW_LEFT_SIDE"
+  },
+  {
+    "id": "86887554",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Right View",
+    "photoCaption": "Structure Right View",
+    "photoType": "VIEW_RIGHT_SIDE"
+  },
+  {
+    "id": "50015771",
+    "name": "uniformHeatingAndCoolingDescription",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Uniform Heating and Cooling Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if uniformHeatingAndCoolingIndicator is FALSE."
+    ]
+  },
+  {
+    "id": "72677200",
+    "name": "uniformHeatingAndCoolingIndicator",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Uniform Heating and Cooling",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "81716726",
+    "name": "coolingSystems",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "62772564",
+        "name": "Cooling"
+      }
+    ]
+  },
+  {
+    "id": "62772564",
+    "name": "Cooling",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "28026147",
+        "name": "coolingType"
+      }
+    ],
+    "photos": [
+      "27120000"
+    ]
+  },
+  {
+    "id": "27120000",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Cooling system",
+    "photoCaption": "Cooling system",
+    "photoType": "COOLING_SYSTEM"
+  },
+  {
+    "id": "28026147",
+    "name": "coolingType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Cooling System Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Central air conditioning",
+      "Central heatpump",
+      "Ductless heatpump",
+      "Ductless air conditioning",
+      "Whole house fan",
+      "Evaporative cooler",
+      "Geothermal",
+      "None"
+    ],
+    "valueOptions": [
+      "CENTRAL_AIR_CONDITIONING",
+      "CENTRAL_HEATPUMP",
+      "DUCTLESS_HEATPUMP",
+      "DUCTLESS_AIR_CONDITIONING",
+      "WHOLE_HOUSE_FAN",
+      "EVAPORATIVE_COOLER",
+      "GEOTHERMAL",
+      "NONE"
+    ]
+  },
+  {
+    "id": "08467840",
+    "name": "heatingSystems",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "17610877",
+        "name": "Heating"
+      }
+    ]
+  },
+  {
+    "id": "17610877",
+    "name": "Heating",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "25772668",
+        "name": "heatingType"
+      }
+    ],
+    "photos": [
+      "57857262"
+    ]
+  },
+  {
+    "id": "57857262",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Heating System",
+    "photoCaption": "Heating System",
+    "photoType": "HEATING_SYSTEM"
+  },
+  {
+    "id": "25772668",
+    "name": "heatingType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Heating System Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Central hot air",
+      "Hot water radiators",
+      "Hot water baseboard",
+      "Electric baseboard",
+      "In wall heater",
+      "Radiant floor",
+      "Central heatpump",
+      "Ductless heatpump",
+      "Ductless heat",
+      "Geothermal",
+      "Wall furnace",
+      "No heat"
+    ],
+    "valueOptions": [
+      "CENTRAL_HOT_AIR",
+      "HOT_WATER_RADIATORS",
+      "HOT_WATER_BASEBOARD",
+      "ELECTRIC_BASEBOARD",
+      "IN_WALL_HEATER",
+      "RADIANT_FLOOR",
+      "CENTRAL_HEATPUMP",
+      "DUCTLESS_HEATPUMP",
+      "DUCTLESS_HEAT",
+      "GEOTHERMAL",
+      "WALL_FURNACE",
+      "NO_HEAT"
+    ]
+  },
+  {
+    "id": "25561716",
+    "name": "yearBuiltEstimate",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Year Built Estimate",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "comment": "Should be a valid 4 digit year. Value should be greater than 1600 and less or equal than current year",
+    "id": "86820818",
+    "name": "yearBuilt",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Year Built",
+    "validators": [
+      "number"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "68720587",
+    "name": "mechanicalDeficiencies",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "76218682",
+        "name": "MechanicalDeficiency"
+      }
+    ]
+  },
+  {
+    "id": "76218682",
+    "name": "MechanicalDeficiency",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "28750184",
+        "name": "deficiencyName"
+      },
+      {
+        "id": "87684682",
+        "name": "deficiencyType"
+      },
+      {
+        "id": "60588542",
+        "name": "mechanicalDeficiencySeverity"
+      },
+      {
+        "id": "27828466",
+        "name": "descriptionMechanicalDeficiency"
+      }
+    ],
+    "photos": [
+      "77267985"
+    ]
+  },
+  {
+    "id": "77267985",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Mechanical Deficiency",
+    "photoCaption": "Mechanical Deficiency",
+    "photoType": "MECHANICAL_DEFICIENCY"
+  },
+  {
+    "id": "27828466",
+    "name": "descriptionMechanicalDeficiency",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Deficiency Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "60588542",
+    "name": "mechanicalDeficiencySeverity",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Mechanical Deficiency impacts safety, structural integrity or habitability of room?",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "87684682",
+    "name": "deficiencyType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Mechanical Deficiency Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Excessive Wear",
+      "Damage",
+      "Nonfunctional",
+      "Evidence of Leaks",
+      "Evidence of Fire",
+      "Missing",
+      "Other"
+    ],
+    "valueOptions": [
+      "EXCESSIVE_WEAR",
+      "DAMAGE",
+      "NON_FUNCTIONAL",
+      "EVIDENCE_OF_LEAKS",
+      "EVIDENCE_OF_FIRE",
+      "MISSING",
+      "OTHER"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "28750184",
+    "name": "deficiencyName",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Mechanical Deficiency",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Plumbing",
+      "Electrical",
+      "Heating",
+      "Water Heater",
+      "Cooling",
+      "Sump Pump",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "PLUMBING",
+      "ELECTRICAL",
+      "HEATING",
+      "WATER_HEATER",
+      "COOLING",
+      "SUMP_PUMP",
+      "OTHER"
+    ],
+    "requiredby": []
+  },
+  {
+    "id": "84116275",
+    "name": "exteriorUpdates",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "15685827",
+        "name": "ExteriorUpdate"
+      }
+    ]
+  },
+  {
+    "id": "15685827",
+    "name": "ExteriorUpdate",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "82685662",
+        "name": "exteriorUpdatedComponent"
+      },
+      {
+        "id": "57818482",
+        "name": "exteriorUpdateType"
+      },
+      {
+        "id": "26686882",
+        "name": "exteriorUpdateTimeframe"
+      },
+      {
+        "id": "65178245",
+        "name": "exteriorUpdateDescription"
+      }
+    ],
+    "photos": [
+      "57757287"
+    ]
+  },
+  {
+    "id": "57757287",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Exterior Update",
+    "photoCaption": "EXTERIOR_UPDATE",
+    "photoType": "OTHER"
+  },
+  {
+    "id": "65178245",
+    "name": "exteriorUpdateDescription",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Exterior Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if exteriorUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "26686882",
+    "name": "exteriorUpdateTimeframe",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exterior Update Timeframe",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "0-1 Years",
+      "2-5 Years",
+      "6-10 Years",
+      "11+ Years"
+    ],
+    "valueOptions": [
+      "ZERO_TO_ONE_YEAR",
+      "TWO_TO_FIVE_YEARS",
+      "SIX_TO_TEN_YEARS",
+      "ELEVEN_OR_MORE_YEARS"
+    ],
+    "requiredby": [
+      "Conditionally required if exteriorUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "57818482",
+    "name": "exteriorUpdateType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exterior Update Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Replaced",
+      "Refinished"
+    ],
+    "valueOptions": [
+      "REPLACED",
+      "REFINISHED"
+    ],
+    "requiredby": [
+      "Conditionally required if exteriorUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "82685662",
+    "name": "exteriorUpdatedComponent",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exterior Update Component",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None observed",
+      "Siding",
+      "Windows",
+      "Doors",
+      "Walls",
+      "Ceiling",
+      "Roof",
+      "Foundation",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "SIDING",
+      "WINDOWS",
+      "DOORS",
+      "WALLS",
+      "CEILING",
+      "ROOF",
+      "FOUNDATION",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "65768271",
+    "name": "exteriorFeatures",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "26108656",
+        "name": "ExteriorFeature"
+      }
+    ]
+  },
+  {
+    "id": "26108656",
+    "name": "ExteriorFeature",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "88648888",
+        "name": "exteriorFeatureType"
+      }
+    ],
+    "photos": [
+      "62784776"
+    ]
+  },
+  {
+    "id": "62784776",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Exterior Feature",
+    "photoCaption": "Exterior Feature",
+    "photoType": "EXTERIOR_FEATURE"
+  },
+  {
+    "id": "88648888",
+    "name": "exteriorFeatureType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exterior Feature Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None",
+      "Deck",
+      "Patio",
+      "Balcony",
+      "Uncovered porch",
+      "Covered porch",
+      "Enclosed porch",
+      "Wrap around porch",
+      "Stoop",
+      "Outdoor kitchen",
+      "Firepit",
+      "Fireplace"
+    ],
+    "valueOptions": [
+      "NONE",
+      "DECK",
+      "PATIO",
+      "BALCONY",
+      "UNCOVERED_PORCH",
+      "COVERED_PORCH",
+      "ENCLOSED_PORCH",
+      "WRAP_AROUND_PORCH",
+      "STOOP",
+      "OUTDOOR_KITCHEN",
+      "FIREPIT",
+      "FIREPLACE"
+    ]
+  },
+  {
+    "id": "40867587",
+    "name": "exteriorDeficiencies",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "28588568",
+        "name": "ExteriorDeficiency"
+      }
+    ]
+  },
+  {
+    "id": "28588568",
+    "name": "ExteriorDeficiency",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "77567720",
+        "name": "deficiencyName"
+      },
+      {
+        "id": "87488871",
+        "name": "deficiencyType"
+      },
+      {
+        "id": "77788267",
+        "name": "exteriorDeficiencySeverity"
+      },
+      {
+        "id": "72072776",
+        "name": "descriptionExteriorDeficiency"
+      }
+    ],
+    "photos": [
+      "57185582"
+    ]
+  },
+  {
+    "id": "57185582",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Exterior Deficiency",
+    "photoCaption": "Exterior Deficiency",
+    "photoType": "EXTERIOR_DEFICIENCY"
+  },
+  {
+    "id": "72072776",
+    "name": "descriptionExteriorDeficiency",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Exterior Deficiency Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "77788267",
+    "name": "exteriorDeficiencySeverity",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Exterior Deficiency impacts safety, structural integrity or habitability of room",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "87488871",
+    "name": "deficiencyType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exterior Deficiency Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Excessive Wear",
+      "Damage",
+      "Evidence of Infestation",
+      "Missing",
+      "Other"
+    ],
+    "valueOptions": [
+      "EXCESSIVE_WEAR",
+      "DAMAGE",
+      "EVIDENCE_OF_INFESTATION",
+      "MISSING",
+      "OTHER"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "77567720",
+    "name": "deficiencyName",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Exterior Deficiency",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Foundation",
+      "Roof",
+      "Siding",
+      "Fascia",
+      "Windows",
+      "Doors",
+      "Gutters/Downspouts",
+      "Eaves",
+      "Chimney",
+      "Porch",
+      "Patio",
+      "Deck",
+      "Balcony",
+      "Entry Stairs",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "FOUNDATION",
+      "ROOF",
+      "SIDING",
+      "FASCIA",
+      "WINDOWS",
+      "DOORS",
+      "GUTTERS_DOWNSPOUTS",
+      "EAVES",
+      "CHIMNEY",
+      "PORCH",
+      "PATIO",
+      "DECK",
+      "BALCONY",
+      "ENTRY_STAIRS",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "14612568",
+    "name": "constructionStatus",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Construction Status",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Complete",
+      "Incomplete construction",
+      "Incomplete renovation construction",
+      "Proposed (just land)"
+    ],
+    "valueOptions": [
+      "COMPLETE",
+      "INCOMPLETE_CONSTRUCTION",
+      "INCOMPLETE_RENOVATION_CONSTRUCTION",
+      "PROPOSED"
+    ]
+  },
+  {
+    "id": "82888125",
+    "name": "structureType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Structure Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Dwelling",
+      "Greenhouse",
+      "Toolshed",
+      "Workshop",
+      "Barn",
+      "Pole Building",
+      "Stables",
+      "Riding Arena",
+      "Pool House"
+    ],
+    "valueOptions": [
+      "DWELLING",
+      "GREENHOUSE",
+      "TOOLSHED",
+      "WORKSHOP",
+      "BARN",
+      "POLE_BUILDING",
+      "STABLES",
+      "RIDING_ARENA",
+      "POOL_HOUSE"
+    ]
+  },
+  {
+    "id": "70606675",
+    "name": "attachmentType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Attachment Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Detached",
+      "Attached",
+      "Semi-Detached Left",
+      "Semi-Detached Right"
+    ],
+    "valueOptions": [
+      "DETACHED",
+      "ATTACHED",
+      "LEFT_SEMI_DETACHED",
+      "RIGHT_SEMI_DETACHED"
+    ],
+    "requiredby": [
+      "Conditionally required if structureType is DWELLING"
+    ]
+  },
+  {
+    "id": "55766880",
+    "name": "units",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "68660227",
+        "name": "Unit"
+      }
+    ]
+  },
+  {
+    "id": "68660227",
+    "name": "Unit",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "87274785",
+        "name": "unitHabitability"
+      },
+      {
+        "id": "87820022",
+        "name": "levels"
+      }
+    ]
+  },
+  {
+    "id": "87820022",
+    "name": "levels",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "81814540",
+        "name": "Level"
+      }
+    ]
+  },
+  {
+    "id": "81814540",
+    "name": "Level",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "56668748",
+        "name": "finishedLivingArea"
+      },
+      {
+        "id": "60478208",
+        "name": "attic"
+      },
+      {
+        "id": "75685681",
+        "name": "earthContact"
+      },
+      {
+        "id": "26220878",
+        "name": "levelNumber"
+      },
+      {
+        "id": "82282687",
+        "name": "atticAccess"
+      },
+      {
+        "id": "14448678",
+        "name": "totalArea"
+      },
+      {
+        "id": "82862621",
+        "name": "levelLowCeiling"
+      },
+      {
+        "id": "08527278",
+        "name": "belowGradeExits"
+      },
+      {
+        "id": "42467868",
+        "name": "rooms"
+      }
+    ]
+  },
+  {
+    "id": "42467868",
+    "name": "rooms",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "78766067",
+        "name": "Room"
+      }
+    ]
+  },
+  {
+    "id": "78766067",
+    "name": "Room",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "85747648",
+        "name": "roomType"
+      },
+      {
+        "id": "27676868",
+        "name": "otherRoomTypeDescription"
+      },
+      {
+        "id": "07281780",
+        "name": "interiorDeficiencies"
+      },
+      {
+        "id": "88882257",
+        "name": "interiorUpdates"
+      },
+      {
+        "id": "45507656",
+        "name": "roomFeatures"
+      },
+      {
+        "id": "76888827",
+        "name": "plumbingFixtures"
+      }
+    ],
+    "photos": [
+      "70373770"
+    ]
+  },
+  {
+    "id": "70373770",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Room",
+    "photoCaption": "Room",
+    "photoType": "ROOM"
+  },
+  {
+    "id": "76888827",
+    "name": "plumbingFixtures",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "24261104",
+        "name": "PlumbingFixture"
+      }
+    ]
+  },
+  {
+    "id": "24261104",
+    "name": "PlumbingFixture",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "66528288",
+        "name": "fixtureType"
+      }
+    ]
+  },
+  {
+    "id": "66528288",
+    "name": "fixtureType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Plumbing Fixtures",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Sink",
+      "Laundry hookup",
+      "Pot filler",
+      "Jetted tub",
+      "Double sink",
+      "Toilet",
+      "Tub shower",
+      "Walk-in shower",
+      "Tub w/o shower",
+      "Freestanding tub",
+      "Appliance hookup",
+      "Rough in",
+      "None observed"
+    ],
+    "valueOptions": [
+      "SINK",
+      "LAUNDRY_HOOKUP",
+      "POT_FILLER",
+      "JETTED_TUB",
+      "DOUBLE_SINK",
+      "TOILET",
+      "TUB_SHOWER",
+      "WALK_IN_SHOWER",
+      "TUB_W_NO_SHOWER",
+      "FREESTANDING_TUB",
+      "APPLIANCE_HOOKUP",
+      "ROUGH_IN",
+      "NONE_OBSERVED"
+    ],
+    "requiredby": [
+      "Conditionally required if roomType is BATHROOM, KITCHEN, LAUNDRY_ROOM, or BUTLERS_PANTRY."
+    ]
+  },
+  {
+    "id": "45507656",
+    "name": "roomFeatures",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "86722602",
+        "name": "RoomFeature"
+      }
+    ]
+  },
+  {
+    "id": "86722602",
+    "name": "RoomFeature",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "70026867",
+        "name": "roomFeatureType"
+      }
+    ]
+  },
+  {
+    "id": "70026867",
+    "name": "roomFeatureType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Room Features",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Fireplace",
+      "Wood stove",
+      "Built-ins",
+      "Wet bar",
+      "Walk in closet"
+    ],
+    "valueOptions": [
+      "FIREPLACE",
+      "WOOD_STOVE",
+      "BUILT_INS",
+      "WET_BAR",
+      "WALK_IN_CLOSET"
+    ]
+  },
+  {
+    "id": "88882257",
+    "name": "interiorUpdates",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "12222818",
+        "name": "InteriorUpdate"
+      }
+    ]
+  },
+  {
+    "id": "12222818",
+    "name": "InteriorUpdate",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "44287418",
+        "name": "interiorUpdatedComponent"
+      },
+      {
+        "id": "48024285",
+        "name": "interiorUpdateType"
+      },
+      {
+        "id": "10557788",
+        "name": "interiorUpdateTimeframe"
+      },
+      {
+        "id": "25480788",
+        "name": "interiorUpdateDescription"
+      }
+    ],
+    "photos": [
+      "14713244"
+    ]
+  },
+  {
+    "comment": "photoType is prefixed with interiorUpdatedComponent",
+    "id": "14713244",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Interior Update",
+    "photoCaption": "Interior Update",
+    "photoType": "{interiorUpdatedComponent}_INTERIOR_UPDATE"
+  },
+  {
+    "id": "25480788",
+    "name": "interiorUpdateDescription",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Interior Update Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if interiorUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "10557788",
+    "name": "interiorUpdateTimeframe",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Timeframe",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "0-1 Year",
+      "2-5 Years",
+      "6-10 Years",
+      "11+ Years"
+    ],
+    "valueOptions": [
+      "ZERO_TO_ONE_YEAR",
+      "TWO_TO_FIVE_YEARS",
+      "SIX_TO_TEN_YEARS",
+      "ELEVEN_OR_MORE_YEARS"
+    ],
+    "requiredby": [
+      "Conditionally required if interiorUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "48024285",
+    "name": "interiorUpdateType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Replaced",
+      "Refinished"
+    ],
+    "valueOptions": [
+      "REPLACED",
+      "REFINISHED"
+    ],
+    "requiredby": [
+      "Conditionally required if interiorUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "44287418",
+    "name": "interiorUpdatedComponent",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Interior Update 1",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Flooring",
+      "Plumbing Fixtures",
+      "Electrical Fixtures",
+      "Cabinets/Countertops",
+      "Appliances",
+      "Walls",
+      "Ceiling",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "FLOORING",
+      "PLUMBING_FIXTURES",
+      "ELECTRICAL_FIXTURES",
+      "CABINET_COUNTERTOPS",
+      "APPLIANCES",
+      "WALLS",
+      "CEILING",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "07281780",
+    "name": "interiorDeficiencies",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "04247262",
+        "name": "InteriorDeficiency"
+      }
+    ]
+  },
+  {
+    "id": "04247262",
+    "name": "InteriorDeficiency",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "88727850",
+        "name": "deficiencyName"
+      },
+      {
+        "id": "46162678",
+        "name": "deficiencyType"
+      },
+      {
+        "id": "20704486",
+        "name": "interiorDeficiencySeverity"
+      },
+      {
+        "id": "76862227",
+        "name": "descriptionInteriorDeficiency"
+      }
+    ],
+    "photos": [
+      "12310375"
+    ]
+  },
+  {
+    "comment": "photoType is prefixed with deficiencyName",
+    "id": "12310375",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Room Deficiency",
+    "photoCaption": "Room Deficiency",
+    "photoType": "{deficiencyName}_INTERIOR_DEFICIENCY"
+  },
+  {
+    "id": "76862227",
+    "name": "descriptionInteriorDeficiency",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Room Deficiency Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "20704486",
+    "name": "interiorDeficiencySeverity",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Room Deficiency impacts safety, structural integrity or habitability of room?",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "46162678",
+    "name": "deficiencyType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Interior Deficiency Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Excessive Wear",
+      "Damage",
+      "Evidence of Mold",
+      "Evidence of Infestation",
+      "Missing",
+      "Poor Functional Utility",
+      "Other"
+    ],
+    "valueOptions": [
+      "EXCESSIVE_WEAR",
+      "DAMAGE",
+      "EVIDENCE_OF_MOLD",
+      "EVIDENCE_OF_INFESTATION",
+      "MISSING",
+      "POOR_FUNCTIONAL_UTILITY",
+      "OTHER"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "88727850",
+    "name": "deficiencyName",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Interior Deficiency Name",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Flooring",
+      "Plumbing Fixtures",
+      "Electrical Fixtures",
+      "Cabinets/Countertops",
+      "Appliances",
+      "Walls",
+      "Ceiling",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "FLOORING",
+      "PLUMBING_FIXTURES",
+      "ELECTRICAL_FIXTURES",
+      "CABINET_COUNTERTOPS",
+      "APPLIANCES",
+      "WALLS",
+      "CEILING",
+      "OTHER"
+    ],
+    "requiredby": []
+  },
+  {
+    "id": "27676868",
+    "name": "otherRoomTypeDescription",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Other Room Type",
+    "validators": [
+      "minLength",
+      "maxLength",
+      "text"
+    ],
+    "minLength": 0,
+    "maxLength": 100,
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if roomType is OTHER_ROOM."
+    ]
+  },
+  {
+    "id": "85747648",
+    "name": "roomType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Foyer",
+      "Living room",
+      "Dining room",
+      "Kitchen",
+      "Den",
+      "Family room",
+      "Recreation room",
+      "Bedroom",
+      "Bathroom",
+      "Laundry room",
+      "Hall",
+      "Library",
+      "Media",
+      "Office",
+      "Utility",
+      "Workshop",
+      "Butler's Pantry",
+      "Other room"
+    ],
+    "valueOptions": [
+      "FOYER",
+      "LIVING_ROOM",
+      "DINING_ROOM",
+      "KITCHEN",
+      "DEN",
+      "FAMILY_ROOM",
+      "REC_ROOM",
+      "BEDROOM",
+      "BATHROOM",
+      "LAUNDRY_ROOM",
+      "HALL",
+      "LIBRARY",
+      "MEDIA",
+      "OFFICE",
+      "UTILITY",
+      "WORKSHOP",
+      "BUTLERS_PANTRY",
+      "OTHER_ROOM"
+    ]
+  },
+  {
+    "id": "08527278",
+    "name": "belowGradeExits",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "37617714",
+        "name": "belowGradeExit"
+      }
+    ]
+  },
+  {
+    "id": "37617714",
+    "name": "belowGradeExit",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Below Grade Exit",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None",
+      "Walkup",
+      "Walkout",
+      "Garage",
+      "Bulkhead",
+      "Interior"
+    ],
+    "valueOptions": [
+      "NONE",
+      "WALKUP",
+      "WALKOUT",
+      "GARAGE",
+      "BULKHEAD",
+      "INTERIOR"
+    ]
+  },
+  {
+    "id": "82862621",
+    "name": "levelLowCeiling",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Low Ceiling",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "14448678",
+    "name": "totalArea",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Total Area",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "82282687",
+    "name": "atticAccess",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Attic Access",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Attic Scuttle",
+      "Drop Stair",
+      "Permanent Stairwell",
+      "None Observed"
+    ],
+    "valueOptions": [
+      "ATTIC_SCUTTLE",
+      "DROP_STAIR",
+      "PERMANENT_STAIRWELL",
+      "NONE_OBSERVED"
+    ],
+    "requiredby": [
+      "Conditionally required if attic is TRUE."
+    ]
+  },
+  {
+    "id": "26220878",
+    "name": "levelNumber",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Level Number",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "75685681",
+    "name": "earthContact",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Earth Contact",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "60478208",
+    "name": "attic",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Attic",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "comment": "Conditional value, can't be more than totalArea.",
+    "id": "56668748",
+    "name": "finishedLivingArea",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Finished Living Area",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "87274785",
+    "name": "unitHabitability",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "56788547",
+    "name": "constructionType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Construction Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Frame",
+      "Masonry",
+      "Log",
+      "Manufactured",
+      "Modular",
+      "Geodesic",
+      "Earth Berm"
+    ],
+    "valueOptions": [
+      "FRAME",
+      "MASONRY",
+      "LOG",
+      "MANUFACTURED",
+      "MODULAR",
+      "GEODESIC",
+      "EARTH_BERM"
+    ]
+  },
+  {
+    "id": "16667824",
+    "name": "identification",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "74068616",
+        "name": "gpsCoordinates"
+      }
+    ]
+  },
+  {
+    "id": "74068616",
+    "name": "gpsCoordinates",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "55267688",
+        "name": "latitude"
+      },
+      {
+        "id": "87745272",
+        "name": "longitude"
+      }
+    ]
+  },
+  {
+    "id": "87745272",
+    "name": "longitude",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "55267688",
+    "name": "latitude",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "71147866",
+    "name": "address",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "70624026",
+        "name": "streetAddress"
+      },
+      {
+        "id": "65804226",
+        "name": "city"
+      },
+      {
+        "id": "86642128",
+        "name": "postalCode"
+      },
+      {
+        "id": "02827757",
+        "name": "state"
+      },
+      {
+        "id": "87181866",
+        "name": "unitNumber"
+      }
+    ],
+    "photos": [
+      "27955512"
+    ]
+  },
+  {
+    "id": "27955512",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": true,
+    "labelText": "Street Address",
+    "photoCaption": "Street Address",
+    "photoType": "STREET_ADDRESS"
+  },
+  {
+    "id": "87181866",
+    "name": "unitNumber",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Unit",
+    "validators": [
+      "minLength",
+      "maxLength",
+      "text"
+    ],
+    "minLength": 0,
+    "maxLength": 10,
+    "dataType": "string"
+  },
+  {
+    "id": "02827757",
+    "name": "state",
+    "fieldType": "dropdown",
+    "isRequired": true,
+    "labelText": "State",
+    "validators": [
+      "minLength",
+      "maxLength",
+      "text"
+    ],
+    "minLength": 2,
+    "maxLength": 2,
+    "dataType": "string",
+    "options": [
+      "AL",
+      "AK",
+      "AZ",
+      "AR",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "DC",
+      "FL",
+      "GA",
+      "HI",
+      "ID",
+      "IL",
+      "IN",
+      "IA",
+      "KS",
+      "KY",
+      "LA",
+      "ME",
+      "MD",
+      "MA",
+      "MI",
+      "MN",
+      "MS",
+      "MO",
+      "MT",
+      "NE",
+      "NV",
+      "NH",
+      "NJ",
+      "NM",
+      "NY",
+      "NC",
+      "ND",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VT",
+      "VA",
+      "WA",
+      "WV",
+      "WI",
+      "WY"
+    ],
+    "valueOptions": [
+      "AL",
+      "AK",
+      "AZ",
+      "AR",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "DC",
+      "FL",
+      "GA",
+      "HI",
+      "ID",
+      "IL",
+      "IN",
+      "IA",
+      "KS",
+      "KY",
+      "LA",
+      "ME",
+      "MD",
+      "MA",
+      "MI",
+      "MN",
+      "MS",
+      "MO",
+      "MT",
+      "NE",
+      "NV",
+      "NH",
+      "NJ",
+      "NM",
+      "NY",
+      "NC",
+      "ND",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VT",
+      "VA",
+      "WA",
+      "WV",
+      "WI",
+      "WY"
+    ]
+  },
+  {
+    "id": "86642128",
+    "name": "postalCode",
+    "fieldType": "text",
+    "isRequired": true,
+    "labelText": "Zip",
+    "validators": [
+      "minLength",
+      "maxLength",
+      "text"
+    ],
+    "minLength": 5,
+    "maxLength": 5,
+    "dataType": "string"
+  },
+  {
+    "id": "65804226",
+    "name": "city",
+    "fieldType": "text",
+    "isRequired": true,
+    "labelText": "City",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string"
+  },
+  {
+    "id": "70624026",
+    "name": "streetAddress",
+    "fieldType": "text",
+    "isRequired": true,
+    "labelText": "Address",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string"
+  },
+  {
+    "id": "62817572",
+    "name": "site",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "66685617",
+        "name": "lot"
+      },
+      {
+        "id": "64225766",
+        "name": "siteFeature"
+      },
+      {
+        "id": "16880184",
+        "name": "offSiteFeature"
+      },
+      {
+        "id": "46872640",
+        "name": "siteUtility"
+      },
+      {
+        "id": "68674807",
+        "name": "offstreetParkingAvailable"
+      },
+      {
+        "id": "62012008",
+        "name": "carStorages"
+      }
+    ]
+  },
+  {
+    "id": "62012008",
+    "name": "carStorages",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "68270882",
+        "name": "CarStorage"
+      }
+    ]
+  },
+  {
+    "id": "68270882",
+    "name": "CarStorage",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "77246884",
+        "name": "type"
+      },
+      {
+        "id": "68521182",
+        "name": "spaceCount"
+      },
+      {
+        "id": "44588867",
+        "name": "spaceArea"
+      },
+      {
+        "id": "17572725",
+        "name": "garageConversionIndicator"
+      },
+      {
+        "id": "88577888",
+        "name": "carStorageDeficiencies"
+      },
+      {
+        "id": "78767787",
+        "name": "carStorageUpdates"
+      }
+    ],
+    "photos": [
+      "17756571",
+      "52713517"
+    ]
+  },
+  {
+    "id": "17756571",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Exterior Photo",
+    "photoCaption": "Exterior Photo",
+    "photoType": "OTHER"
+  },
+  {
+    "id": "52713517",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Interior Photo",
+    "photoCaption": "Interior Photo",
+    "photoType": "OTHER"
+  },
+  {
+    "id": "78767787",
+    "name": "carStorageUpdates",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "27878578",
+        "name": "CarStorageUpdate"
+      }
+    ]
+  },
+  {
+    "id": "27878578",
+    "name": "CarStorageUpdate",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "86776185",
+        "name": "carStorageUpdatedComponent"
+      },
+      {
+        "id": "88581885",
+        "name": "carStorageUpdateType"
+      },
+      {
+        "id": "72288588",
+        "name": "carStorageUpdateTimeframe"
+      },
+      {
+        "id": "77782728",
+        "name": "carStorageUpdateDescription"
+      }
+    ],
+    "photos": [
+      "02858907"
+    ]
+  },
+  {
+    "comment": "photoType is prefixed with carStorageUpdatedComponent",
+    "id": "02858907",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": true,
+    "labelText": "Car Storage Update",
+    "photoCaption": "Car Storage Update",
+    "photoType": "{carStorageUpdatedComponent}_CARSTORAGE_UPDATE"
+  },
+  {
+    "id": "77782728",
+    "name": "carStorageUpdateDescription",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Update Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if carStorageUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "72288588",
+    "name": "carStorageUpdateTimeframe",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Update Timeframe",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "0-1 Years",
+      "2-5 Years",
+      "6-10 Years",
+      "11+ Years"
+    ],
+    "valueOptions": [
+      "ZERO_TO_ONE_YEAR",
+      "TWO_TO_FIVE_YEARS",
+      "SIX_TO_TEN_YEARS",
+      "ELEVEN_OR_MORE_YEARS"
+    ],
+    "requiredby": [
+      "Conditionally required if carStorageUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "88581885",
+    "name": "carStorageUpdateType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Update Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Replaced",
+      "Refinished"
+    ],
+    "valueOptions": [
+      "REPLACED",
+      "REFINISHED"
+    ],
+    "requiredby": [
+      "Conditionally required if carStorageUpdatedComponent is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "86776185",
+    "name": "carStorageUpdatedComponent",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Updated Component",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Siding",
+      "Windows",
+      "Doors",
+      "Garage door",
+      "Walls",
+      "Ceiling",
+      "Roof",
+      "Foundation",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "SIDING",
+      "WINDOWS",
+      "DOORS",
+      "GARAGE_DOOR",
+      "WALLS",
+      "CEILING",
+      "ROOF",
+      "FOUNDATION",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "88577888",
+    "name": "carStorageDeficiencies",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "88067482",
+        "name": "CarStorageDeficiency"
+      }
+    ]
+  },
+  {
+    "id": "88067482",
+    "name": "CarStorageDeficiency",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "14482888",
+        "name": "deficiencyName"
+      },
+      {
+        "id": "86888486",
+        "name": "deficiencyType"
+      },
+      {
+        "id": "18854781",
+        "name": "carStorageDeficiencySeverity"
+      },
+      {
+        "id": "87685840",
+        "name": "descriptionCarStorageDeficiency"
+      }
+    ],
+    "photos": [
+      "15255426"
+    ]
+  },
+  {
+    "comment": "photoType is prefixed with deficiencyName",
+    "id": "15255426",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Car Storage Deficiency",
+    "photoCaption": "Car Storage Deficiency",
+    "photoType": "{deficiencyName}_CARSTORAGE_DEFICIENCY"
+  },
+  {
+    "id": "87685840",
+    "name": "descriptionCarStorageDeficiency",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Car Storage Deficiency Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "18854781",
+    "name": "carStorageDeficiencySeverity",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Car Storage Deficiency Severity",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "86888486",
+    "name": "deficiencyType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Car Storage Deficiency Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Excessive Wear",
+      "Evidence of Infestation",
+      "Missing",
+      "Other"
+    ],
+    "valueOptions": [
+      "EXCESSIVE_WEAR",
+      "EVIDENCE_OF_INFESTATION",
+      "MISSING",
+      "OTHER"
+    ],
+    "requiredby": [
+      "Conditionally required if deficiency is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "14482888",
+    "name": "deficiencyName",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Car Storage Deficiency Name",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Siding",
+      "Windows",
+      "Doors",
+      "Garage Door",
+      "Walls",
+      "Ceiling",
+      "Roof",
+      "Foundation",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "SIDING",
+      "WINDOWS",
+      "DOORS",
+      "GARAGE_DOOR",
+      "WALLS",
+      "CEILING",
+      "ROOF",
+      "FOUNDATION",
+      "OTHER"
+    ],
+    "requiredby": []
+  },
+  {
+    "id": "17572725",
+    "name": "garageConversionIndicator",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Garage Conversion",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if type is ATTACHED_GARAGE, DETACHED_GARAGE, BUILTIN_GARAGE, RV_GARAGE."
+    ]
+  },
+  {
+    "id": "44588867",
+    "name": "spaceArea",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Car Storage Area",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer",
+    "requiredby": [
+      "Conditionally required if type is ATTACHED_GARAGE, DETACHED_GARAGE, BUILTIN_GARAGE, RV_GARAGE, CARPORT."
+    ]
+  },
+  {
+    "id": "68521182",
+    "name": "spaceCount",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Number of Spaces",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer",
+    "requiredby": [
+      "Conditionally required if type is not OPEN_UNASSIGNED."
+    ]
+  },
+  {
+    "id": "77246884",
+    "name": "type",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Attached",
+      "Detached",
+      "Built-in",
+      "RV Garage",
+      "Driveway",
+      "Carport",
+      "Open Unassigned",
+      "Open Assigned"
+    ],
+    "valueOptions": [
+      "ATTACHED_GARAGE",
+      "DETACHED_GARAGE",
+      "BUILTIN_GARAGE",
+      "RV_GARAGE",
+      "DRIVEWAY",
+      "CARPORT",
+      "OPEN_UNASSIGNED",
+      "OPEN_ASSIGNED"
+    ]
+  },
+  {
+    "id": "68674807",
+    "name": "offstreetParkingAvailable",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Offstreet Parking Available",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "46872640",
+    "name": "siteUtility",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "48208762",
+        "name": "electricalServices"
+      },
+      {
+        "id": "27562286",
+        "name": "waterServices"
+      },
+      {
+        "id": "46127207",
+        "name": "sewerServices"
+      },
+      {
+        "id": "81822726",
+        "name": "gasServices"
+      }
+    ]
+  },
+  {
+    "id": "81822726",
+    "name": "gasServices",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "28728866",
+        "name": "GasService"
+      }
+    ]
+  },
+  {
+    "id": "28728866",
+    "name": "GasService",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "28072870",
+        "name": "serviceType"
+      },
+      {
+        "id": "82764815",
+        "name": "serviceTypeOther"
+      }
+    ]
+  },
+  {
+    "id": "82764815",
+    "name": "serviceTypeOther",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Other Description",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "28072870",
+    "name": "serviceType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Gas Service",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Public",
+      "Other"
+    ],
+    "valueOptions": [
+      "PUBLIC",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "46127207",
+    "name": "sewerServices",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "67720048",
+        "name": "SewerService"
+      }
+    ]
+  },
+  {
+    "id": "67720048",
+    "name": "SewerService",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "87545806",
+        "name": "serviceType"
+      }
+    ]
+  },
+  {
+    "id": "87545806",
+    "name": "serviceType",
+    "fieldType": "dropdown",
+    "isRequired": true,
+    "labelText": "Sewer Service",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Public",
+      "Septic: Private",
+      "Septic: Shared",
+      "Cesspit",
+      "None"
+    ],
+    "valueOptions": [
+      "PUBLIC",
+      "SEPTIC_PRIVATE",
+      "SEPTIC_SHARED",
+      "CESSPIT",
+      "NONE"
+    ],
+    "requiredby": []
+  },
+  {
+    "id": "27562286",
+    "name": "waterServices",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "67212888",
+        "name": "WaterService"
+      }
+    ]
+  },
+  {
+    "id": "67212888",
+    "name": "WaterService",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "11275486",
+        "name": "waterType"
+      }
+    ]
+  },
+  {
+    "id": "11275486",
+    "name": "waterType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Public",
+      "Well: Private",
+      "Well: Shared",
+      "Cistern",
+      "Hauled water"
+    ],
+    "valueOptions": [
+      "PUBLIC",
+      "WELL_PRIVATE",
+      "WELL_SHARED",
+      "CISTERN",
+      "HAULED_WATER"
+    ]
+  },
+  {
+    "id": "48208762",
+    "name": "electricalServices",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "24871807",
+        "name": "ElectricalService"
+      }
+    ]
+  },
+  {
+    "id": "24871807",
+    "name": "ElectricalService",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "52855678",
+        "name": "serviceType"
+      },
+      {
+        "id": "87772266",
+        "name": "offGridService"
+      }
+    ]
+  },
+  {
+    "id": "87772266",
+    "name": "offGridService",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Off-Grid",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if serviceType is SOLAR or GENERATOR or WIND or HYDRO_ELECTRIC."
+    ]
+  },
+  {
+    "id": "52855678",
+    "name": "serviceType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Electrical Service",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Public",
+      "Solar",
+      "Generator",
+      "Wind",
+      "Hydro-electric",
+      "No Electrical Service"
+    ],
+    "valueOptions": [
+      "PUBLIC",
+      "SOLAR",
+      "GENERATOR",
+      "WIND",
+      "HYDRO_ELECTRIC",
+      "NO_ELECTRICAL_SERVICE"
+    ]
+  },
+  {
+    "id": "16880184",
+    "name": "offSiteFeature",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "82660664",
+        "name": "road"
+      }
+    ]
+  },
+  {
+    "id": "82660664",
+    "name": "road",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "62184877",
+        "name": "yearRoundAccessIndicator"
+      },
+      {
+        "id": "87618882",
+        "name": "roadType"
+      },
+      {
+        "id": "16681772",
+        "name": "drivewaySurface"
+      },
+      {
+        "id": "27666276",
+        "name": "roadMaintainedIndicator"
+      },
+      {
+        "id": "61148584",
+        "name": "alley"
+      },
+      {
+        "id": "62815868",
+        "name": "alleyDescription"
+      }
+    ],
+    "photos": [
+      "82588728"
+    ]
+  },
+  {
+    "id": "82588728",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Undermaintained Road",
+    "photoCaption": "Undermaintained Road",
+    "photoType": "ROAD_UNDER_MAINTAINED"
+  },
+  {
+    "id": "62815868",
+    "name": "alleyDescription",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Alley Description",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "61148584",
+    "name": "alley",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Alley",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Public",
+      "Private"
+    ],
+    "valueOptions": [
+      "PUBLIC",
+      "PRIVATE"
+    ]
+  },
+  {
+    "id": "27666276",
+    "name": "roadMaintainedIndicator",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Road Maintained",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Maintained",
+      "Undermaintained"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ],
+    "requiredby": [
+      "Conditionally required if roadType is PRIVATE or UNKNOWN."
+    ]
+  },
+  {
+    "id": "16681772",
+    "name": "drivewaySurface",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Driveway Surface",
+    "validators": [
+      "text"
+    ],
+    "options": [
+      "Asphalt",
+      "Brick",
+      "Concrete",
+      "Crushed Rock",
+      "Dirt",
+      "Gravel",
+      "Pavers",
+      "Stone"
+    ],
+    "valueOptions": [
+      "Asphalt",
+      "Brick",
+      "Concrete",
+      "Crushed Rock",
+      "Dirt",
+      "Gravel",
+      "Pavers",
+      "Stone"
+    ]
+  },
+  {
+    "id": "87618882",
+    "name": "roadType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Road Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Public",
+      "Private",
+      "Unknown"
+    ],
+    "valueOptions": [
+      "PUBLIC",
+      "PRIVATE",
+      "UNKNOWN"
+    ]
+  },
+  {
+    "id": "62184877",
+    "name": "yearRoundAccessIndicator",
+    "fieldType": "radio",
+    "isRequired": false,
+    "labelText": "Year Round Access",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "64225766",
+    "name": "siteFeature",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "78187767",
+        "name": "siteImprovements"
+      },
+      {
+        "id": "60726810",
+        "name": "nonResidentialUses"
+      },
+      {
+        "id": "76688652",
+        "name": "view"
+      },
+      {
+        "id": "62620788",
+        "name": "location"
+      },
+      {
+        "id": "88846777",
+        "name": "adverseSiteConditions"
+      },
+      {
+        "id": "27404760",
+        "name": "waterfrontSiteImprovements"
+      }
+    ]
+  },
+  {
+    "id": "27404760",
+    "name": "waterfrontSiteImprovements",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "46788546",
+        "name": "WaterfrontSiteImprovement"
+      }
+    ]
+  },
+  {
+    "id": "46788546",
+    "name": "WaterfrontSiteImprovement",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "26880717",
+        "name": "waterfrontImprovementType"
+      }
+    ],
+    "photos": [
+      "97414751"
+    ]
+  },
+  {
+    "id": "97414751",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "",
+    "photoCaption": "Water Front Photo",
+    "photoType": "WATERFRONT_SITE_IMPROVEMENTS"
+  },
+  {
+    "id": "26880717",
+    "name": "waterfrontImprovementType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Waterfront Site Improvements",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None",
+      "Bulkhead",
+      "Floating Dock",
+      "Boat Lift",
+      "Dock",
+      "Pier",
+      "Boat House",
+      "Boat Ramp"
+    ],
+    "valueOptions": [
+      "NONE",
+      "BULKHEAD",
+      "FLOATING_DOCK",
+      "BOAT_LIFT",
+      "DOCK",
+      "PIER",
+      "BOAT_HOUSE",
+      "BOAT_RAMP"
+    ]
+  },
+  {
+    "id": "88846777",
+    "name": "adverseSiteConditions",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "26262284",
+        "name": "AdverseSiteCondition"
+      }
+    ]
+  },
+  {
+    "id": "26262284",
+    "name": "AdverseSiteCondition",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "77611286",
+        "name": "adverseType"
+      },
+      {
+        "id": "82667888",
+        "name": "descriptionAdverseSiteCondition"
+      }
+    ],
+    "photos": [
+      "59552929"
+    ]
+  },
+  {
+    "id": "59552929",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Adverse Site Condition",
+    "photoCaption": "Adverse Site Condition",
+    "photoType": "ADVERSE_SITE_CONDITIONS"
+  },
+  {
+    "id": "82667888",
+    "name": "descriptionAdverseSiteCondition",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Adverse Site Condition Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if adverseType is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "77611286",
+    "name": "adverseType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Adverse Site Condition",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Contamination",
+      "Failing Site Improvement",
+      "Encroachments",
+      "Significant junk/trash",
+      "Sinkhole",
+      "Wetlands",
+      "Extreme slope",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "CONTAMINATION",
+      "FAILING_SITE_IMPROVEMENT",
+      "ENCROACHMENTS",
+      "SIGNIFICANT_JUNK_TRASH",
+      "SINKHOLE",
+      "WETLANDS",
+      "EXTREME_SLOPE",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "62620788",
+    "name": "location",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "86486768",
+        "name": "prominentLocation"
+      },
+      {
+        "id": "84280121",
+        "name": "ancillaryLocations"
+      },
+      {
+        "id": "67227660",
+        "name": "prominentLocationDescriptionDetails"
+      },
+      {
+        "id": "15826661",
+        "name": "ancillaryLocationDescriptionDetails"
+      }
+    ]
+  },
+  {
+    "id": "15826661",
+    "name": "ancillaryLocationDescriptionDetails",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Ancillary View Details",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if ancillaryLocations has value(s)."
+    ]
+  },
+  {
+    "id": "67227660",
+    "name": "prominentLocationDescriptionDetails",
+    "fieldType": "text",
+    "isRequired": true,
+    "labelText": "Additional Details",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string"
+  },
+  {
+    "id": "84280121",
+    "name": "ancillaryLocations",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "82084624",
+        "name": "LocationDescription"
+      }
+    ]
+  },
+  {
+    "id": "82084624",
+    "name": "LocationDescription",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "68172804",
+        "name": "locationDescriptionType"
+      }
+    ],
+    "photos": [
+      "01870950"
+    ]
+  },
+  {
+    "id": "01870950",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Ancillary Location Photo",
+    "photoCaption": "Ancillary Location Photo",
+    "photoType": "ADJACENT_INFLUENCE"
+  },
+  {
+    "id": "68172804",
+    "name": "locationDescriptionType",
+    "fieldType": "dropdown",
+    "isRequired": true,
+    "labelText": "Ancillary Location",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Walkable to Amenities",
+      "Walkable to Rail",
+      "Walkable to Trolley",
+      "Walkable to City Bus",
+      "Walkable to Beach",
+      "Walkable to Recreation",
+      "Gated Community",
+      "Ocean Front Beach",
+      "Ocean Front No Beach",
+      "Inland Saltwater Front Beach",
+      "Inland Saltwater Front No Beach",
+      "Lake Front Beach",
+      "Lake Front No Beach",
+      "Seasonal Lake Front",
+      "River/Canal Front",
+      "Golf Course",
+      "Residential",
+      "Adjacent Industrial Use",
+      "Adjacent Commercial Use",
+      "Adjacent School",
+      "Adjacent Religious",
+      "Adjacent Vacant Land",
+      "Adjacent Hospital",
+      "Adjacent Food Service",
+      "Adjacent Hotel/Motel/Inn",
+      "On neighborhood Cul-de-sac street",
+      "On or Adjacent to Busy Road",
+      "On or Adjacent to Interstate Hwy",
+      "Air Traffic Directly Overhead",
+      "Adjacent to Park",
+      "Adjacent To Power Lines",
+      "Adjacent To Landfill",
+      "Notable Noise",
+      "Notable Odor",
+      "Other Adverse",
+      "Other Beneficial",
+      "Other Neutral"
+    ],
+    "valueOptions": [
+      "WALKABLE_TO_AMENITIES",
+      "WALKABLE_TO_RAIL",
+      "WALKABLE_TO_TROLLEY",
+      "WALKABLE_TO_CITY_BUS",
+      "WALKABLE_TO_BEACH",
+      "WALKABLE_TO_RECREATION",
+      "GATED_COMMUNITY",
+      "OCEAN_FRONT_BEACH",
+      "OCEAN_FRONT_NO_BEACH",
+      "INLAND_SALTWATER_FRONT_BEACH",
+      "INLAND_SALTWATER_FRONT_NO_BEACH",
+      "LAKE_FRONT_BEACH",
+      "LAKE_FRONT_NO_BEACH",
+      "SEASONAL_LAKE_FRONT",
+      "RIVER_CANAL_FRONT",
+      "GOLF_COURSE",
+      "RESIDENTIAL",
+      "ADJACENT_INDUSTRIAL_USE",
+      "ADJACENT_COMMERCIAL_USE",
+      "ADJACENT_SCHOOL",
+      "ADJACENT_RELIGIOUS",
+      "ADJACENT_VACANT_LAND",
+      "ADJACENT_HOSPITAL",
+      "ADJACENT_FOOD_SERVICE",
+      "ADJACENT_HOTEL_MOTEL_INN",
+      "ON_NEIGHBORHOOD_CUL_DE_SAC_STREET",
+      "ON_OR_ADJACENT_TO_BUSY_ROAD",
+      "ON_OR_ADJACENT_TO_INTERSTATE_HWY",
+      "AIR_TRAFFIC_DIRECTLY_OVERHEAD",
+      "ADJACENT_TO_PARK",
+      "ADJACENT_TO_POWER_LINES",
+      "ADJACENT_TO_LANDFILL",
+      "NOTABLE_NOISE",
+      "NOTABLE_ODOR",
+      "OTHER_ADVERSE",
+      "OTHER_BENEFICIAL",
+      "OTHER_NEUTRAL"
+    ],
+    "requiredby": []
+  },
+  {
+    "id": "86486768",
+    "name": "prominentLocation",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "46254682",
+        "name": "locationDescriptionType"
+      }
+    ],
+    "photos": [
+      "59797247"
+    ]
+  },
+  {
+    "id": "59797247",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Prominant Location Photo",
+    "photoCaption": "Prominant Location Photo",
+    "photoType": "ADJACENT_INFLUENCE"
+  },
+  {
+    "id": "46254682",
+    "name": "locationDescriptionType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Prominent Location",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Walkable to Amenities",
+      "Walkable to Rail",
+      "Walkable to Trolley",
+      "Walkable to City Bus",
+      "Walkable to Beach",
+      "Walkable to Recreation",
+      "Gated Community",
+      "Ocean Front Beach",
+      "Ocean Front No Beach",
+      "Inland Saltwater Front Beach",
+      "Inland Saltwater Front No Beach",
+      "Lake Front Beach",
+      "Lake Front No Beach",
+      "Seasonal Lake Front",
+      "River/Canal Front",
+      "Golf Course",
+      "Residential",
+      "Adjacent Industrial Use",
+      "Adjacent Commercial Use",
+      "Adjacent School",
+      "Adjacent Religious",
+      "Adjacent Vacant Land",
+      "Adjacent Hospital",
+      "Adjacent Food Service",
+      "Adjacent Hotel/Motel/Inn",
+      "On neighborhood Cul-de-sac street",
+      "On or Adjacent to Busy Road",
+      "On or Adjacent to Interstate Hwy",
+      "Air Traffic Directly Overhead",
+      "Adjacent to Park",
+      "Adjacent To Power Lines",
+      "Adjacent To Landfill",
+      "Notable Noise",
+      "Notable Odor",
+      "Other Adverse",
+      "Other Beneficial",
+      "Other Neutral"
+    ],
+    "valueOptions": [
+      "WALKABLE_TO_AMENITIES",
+      "WALKABLE_TO_RAIL",
+      "WALKABLE_TO_TROLLEY",
+      "WALKABLE_TO_CITY_BUS",
+      "WALKABLE_TO_BEACH",
+      "WALKABLE_TO_RECREATION",
+      "GATED_COMMUNITY",
+      "OCEAN_FRONT_BEACH",
+      "OCEAN_FRONT_NO_BEACH",
+      "INLAND_SALTWATER_FRONT_BEACH",
+      "INLAND_SALTWATER_FRONT_NO_BEACH",
+      "LAKE_FRONT_BEACH",
+      "LAKE_FRONT_NO_BEACH",
+      "SEASONAL_LAKE_FRONT",
+      "RIVER_CANAL_FRONT",
+      "GOLF_COURSE",
+      "RESIDENTIAL",
+      "ADJACENT_INDUSTRIAL_USE",
+      "ADJACENT_COMMERCIAL_USE",
+      "ADJACENT_SCHOOL",
+      "ADJACENT_RELIGIOUS",
+      "ADJACENT_VACANT_LAND",
+      "ADJACENT_HOSPITAL",
+      "ADJACENT_FOOD_SERVICE",
+      "ADJACENT_HOTEL_MOTEL_INN",
+      "ON_NEIGHBORHOOD_CUL_DE_SAC_STREET",
+      "ON_OR_ADJACENT_TO_BUSY_ROAD",
+      "ON_OR_ADJACENT_TO_INTERSTATE_HWY",
+      "AIR_TRAFFIC_DIRECTLY_OVERHEAD",
+      "ADJACENT_TO_PARK",
+      "ADJACENT_TO_POWER_LINES",
+      "ADJACENT_TO_LANDFILL",
+      "NOTABLE_NOISE",
+      "NOTABLE_ODOR",
+      "OTHER_ADVERSE",
+      "OTHER_BENEFICIAL",
+      "OTHER_NEUTRAL"
+    ]
+  },
+  {
+    "id": "76688652",
+    "name": "view",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "82207785",
+        "name": "prominentView"
+      },
+      {
+        "id": "75186777",
+        "name": "ancillaryViews"
+      },
+      {
+        "id": "67088716",
+        "name": "prominentViewDescriptionDetails"
+      },
+      {
+        "id": "74517752",
+        "name": "ancillaryViewDescriptionDetails"
+      }
+    ]
+  },
+  {
+    "id": "74517752",
+    "name": "ancillaryViewDescriptionDetails",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Ancillary View Details",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if ancillaryViews array has values, and at least one viewDescriptionType of these values is not NONE_NOTABLE."
+    ]
+  },
+  {
+    "id": "67088716",
+    "name": "prominentViewDescriptionDetails",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Prominent View Details",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if prominentView.viewDescriptionType is not NONE_NOTABLE."
+    ]
+  },
+  {
+    "id": "75186777",
+    "name": "ancillaryViews",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "56278157",
+        "name": "ViewDescription"
+      }
+    ]
+  },
+  {
+    "id": "56278157",
+    "name": "ViewDescription",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "72482685",
+        "name": "viewQuality"
+      },
+      {
+        "id": "26128681",
+        "name": "viewDescriptionType"
+      }
+    ],
+    "photos": [
+      "55112714"
+    ]
+  },
+  {
+    "id": "55112714",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Ancillary View",
+    "photoCaption": "Ancillary View",
+    "photoType": "ANCILLARY_VIEW"
+  },
+  {
+    "id": "26128681",
+    "name": "viewDescriptionType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Ancillary View",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Notable",
+      "School/Worship Center/Etc.",
+      "Boarded Up Homes/Vandalism",
+      "Vacant Lot",
+      "Woods/Treed/Private",
+      "Hills/Foothills",
+      "Greenbelt/Open Space",
+      "Mountain",
+      "Mountain Range",
+      "Pond",
+      "Lake",
+      "Canal",
+      "Ocean",
+      "River",
+      "Creek",
+      "Bay",
+      "Sound",
+      "Lagoon",
+      "Marina",
+      "Intracoastal Waterway",
+      "Harbor",
+      "Gulf",
+      "Wetlands",
+      "Bayou",
+      "Marsh",
+      "Commercial",
+      "Parking Lot",
+      "Industrial",
+      "Military Base",
+      "Railroad",
+      "Interstate",
+      "Elevated Overpass",
+      "Pastures/Fields/Etc.",
+      "Agricultural/Farm/Etc.",
+      "Territorial",
+      "Desert",
+      "Canyon",
+      "Valley",
+      "Countryside",
+      "Ravine",
+      "City Skyline",
+      "Golf course",
+      "Park",
+      "Apartment Complex",
+      "Windmill/Windfarm",
+      "Power Lines"
+    ],
+    "valueOptions": [
+      "NONE_NOTABLE",
+      "SCHOOL_WORSHIP_CENTER_ETC",
+      "BOARDED_UP_HOMES_VANDALISM",
+      "VACANT_LOT",
+      "WOODS_TREED_PRIVATE",
+      "HILLS_FOOTHILLS",
+      "GREENBELT_OPEN_SPACE",
+      "MOUNTAIN",
+      "MOUNTAIN_RANGE",
+      "POND",
+      "LAKE",
+      "CANAL",
+      "OCEAN",
+      "RIVER",
+      "CREEK",
+      "BAY",
+      "SOUND",
+      "LAGOON",
+      "MARINA",
+      "INTRACOASTAL_WATERWAY",
+      "HARBOR",
+      "GULF",
+      "WETLANDS",
+      "BAYOU",
+      "MARSH",
+      "COMMERCIAL",
+      "PARKING_LOT",
+      "INDUSTRIAL",
+      "MILITARY_BASE",
+      "RAILROAD",
+      "INTERSTATE",
+      "ELEVATED_OVERPASS",
+      "PASTURES_FIELDS_ETC",
+      "AGRICULTURAL_FARM_ETC",
+      "TERRITORIAL",
+      "DESERT",
+      "CANYON",
+      "VALLEY",
+      "COUNTRYSIDE",
+      "RAVINE",
+      "CITY_SKYLINE",
+      "GOLF_COURSE",
+      "PARK",
+      "APARTMENT_COMPLEX",
+      "WINDMILL_WINDFARM",
+      "POWER_LINES"
+    ]
+  },
+  {
+    "id": "72482685",
+    "name": "viewQuality",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Ancillary View Quality",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Unobstructed",
+      "Partial Obstruction",
+      "Obstructed"
+    ],
+    "valueOptions": [
+      "UNOBSTRUCTED",
+      "PARTIAL",
+      "OBSTRUCTED"
+    ],
+    "requiredby": [
+      "Conditionally required if viewDescriptionType is not NONE_NOTABLE."
+    ]
+  },
+  {
+    "id": "82207785",
+    "name": "prominentView",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "14787827",
+        "name": "viewQuality"
+      },
+      {
+        "id": "04662128",
+        "name": "viewDescriptionType"
+      }
+    ],
+    "photos": [
+      "79259702"
+    ]
+  },
+  {
+    "id": "79259702",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "Prominent View",
+    "photoCaption": "Prominent View",
+    "photoType": "PROMINENT_VIEW"
+  },
+  {
+    "id": "04662128",
+    "name": "viewDescriptionType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Prominent View",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Notable",
+      "School/Worship Center/Etc.",
+      "Boarded Up Homes/Vandalism",
+      "Vacant Lot",
+      "Woods/Treed/Private",
+      "Hills/Foothills",
+      "Greenbelt/Open Space",
+      "Mountain",
+      "Mountain Range",
+      "Pond",
+      "Lake",
+      "Canal",
+      "Ocean",
+      "River",
+      "Creek",
+      "Bay",
+      "Sound",
+      "Lagoon",
+      "Marina",
+      "Intracoastal Waterway",
+      "Harbor",
+      "Gulf",
+      "Wetlands",
+      "Bayou",
+      "Marsh",
+      "Commercial",
+      "Parking Lot",
+      "Industrial",
+      "Military Base",
+      "Railroad",
+      "Interstate",
+      "Elevated Overpass",
+      "Pastures/Fields/Etc.",
+      "Agricultural/Farm/Etc.",
+      "Territorial",
+      "Desert",
+      "Canyon",
+      "Valley",
+      "Countryside",
+      "Ravine",
+      "City Skyline",
+      "Golf course",
+      "Park",
+      "Apartment Complex",
+      "Windmill/Windfarm",
+      "Power Lines"
+    ],
+    "valueOptions": [
+      "NONE_NOTABLE",
+      "SCHOOL_WORSHIP_CENTER_ETC",
+      "BOARDED_UP_HOMES_VANDALISM",
+      "VACANT_LOT",
+      "WOODS_TREED_PRIVATE",
+      "HILLS_FOOTHILLS",
+      "GREENBELT_OPEN_SPACE",
+      "MOUNTAIN",
+      "MOUNTAIN_RANGE",
+      "POND",
+      "LAKE",
+      "CANAL",
+      "OCEAN",
+      "RIVER",
+      "CREEK",
+      "BAY",
+      "SOUND",
+      "LAGOON",
+      "MARINA",
+      "INTRACOASTAL_WATERWAY",
+      "HARBOR",
+      "GULF",
+      "WETLANDS",
+      "BAYOU",
+      "MARSH",
+      "COMMERCIAL",
+      "PARKING_LOT",
+      "INDUSTRIAL",
+      "MILITARY_BASE",
+      "RAILROAD",
+      "INTERSTATE",
+      "ELEVATED_OVERPASS",
+      "PASTURES_FIELDS_ETC",
+      "AGRICULTURAL_FARM_ETC",
+      "TERRITORIAL",
+      "DESERT",
+      "CANYON",
+      "VALLEY",
+      "COUNTRYSIDE",
+      "RAVINE",
+      "CITY_SKYLINE",
+      "GOLF_COURSE",
+      "PARK",
+      "APARTMENT_COMPLEX",
+      "WINDMILL_WINDFARM",
+      "POWER_LINES"
+    ]
+  },
+  {
+    "id": "14787827",
+    "name": "viewQuality",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Prominent View Quality",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "Unobstructed",
+      "Partial Obstruction",
+      "Obstructed"
+    ],
+    "valueOptions": [
+      "UNOBSTRUCTED",
+      "PARTIAL",
+      "OBSTRUCTED"
+    ],
+    "requiredby": [
+      "Conditionally required if viewDescriptionType is not NONE_NOTABLE."
+    ]
+  },
+  {
+    "id": "60726810",
+    "name": "nonResidentialUses",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "76688662",
+        "name": "NonResidentialUse"
+      }
+    ]
+  },
+  {
+    "id": "76688662",
+    "name": "NonResidentialUse",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "52766884",
+        "name": "nonResidentialUseType"
+      },
+      {
+        "id": "00176686",
+        "name": "descriptionNonResidentialUse"
+      }
+    ],
+    "photos": [
+      "77665316"
+    ]
+  },
+  {
+    "id": "77665316",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "",
+    "photoCaption": "Non Residential Use",
+    "photoType": "NONRESIDENTIAL_USE"
+  },
+  {
+    "id": "00176686",
+    "name": "descriptionNonResidentialUse",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Non Residential Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if nonResidentialUseType is not NONE_OBSERVED."
+    ]
+  },
+  {
+    "id": "52766884",
+    "name": "nonResidentialUseType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Non Residential Use",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None Observed",
+      "Childcare",
+      "Eldercare",
+      "Boarding House",
+      "Auto Shop",
+      "Medical",
+      "Salon",
+      "Office",
+      "Retail",
+      "Hotel/Bed and Breakfast",
+      "Food Service",
+      "Agriculture",
+      "Grow-room",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE_OBSERVED",
+      "CHILDCARE",
+      "ELDERCARE",
+      "BOARDING_HOUSE",
+      "AUTO_SHOP",
+      "MEDICAL",
+      "SALON",
+      "OFFICE",
+      "RETAIL",
+      "HOTEL_BED_BREAKFAST",
+      "FOOD_SERVICE",
+      "AGRICULTURE",
+      "GROW_ROOM",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "78187767",
+    "name": "siteImprovements",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "41686016",
+        "name": "SiteImprovement"
+      }
+    ]
+  },
+  {
+    "id": "41686016",
+    "name": "SiteImprovement",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "75428257",
+        "name": "siteImprovementType"
+      },
+      {
+        "id": "50078607",
+        "name": "descriptionSiteImprovement"
+      },
+      {
+        "id": "62258268",
+        "name": "ingroundPoolConcerns"
+      }
+    ],
+    "photos": [
+      "41108871"
+    ]
+  },
+  {
+    "id": "41108871",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "",
+    "photoCaption": "Site Improvements",
+    "photoType": "SITE_IMPROVEMENTS"
+  },
+  {
+    "id": "62258268",
+    "name": "ingroundPoolConcerns",
+    "fieldType": "array",
+    "items": [
+      {
+        "id": "80048116",
+        "name": "IngroundPoolConcern"
+      }
+    ]
+  },
+  {
+    "id": "80048116",
+    "name": "IngroundPoolConcern",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "67876266",
+        "name": "poolConcernType"
+      },
+      {
+        "id": "15706182",
+        "name": "descriptionPoolConcern"
+      }
+    ],
+    "photos": [
+      "33098544"
+    ]
+  },
+  {
+    "id": "33098544",
+    "fieldType": "photo",
+    "properties": [
+      {
+        "id": "37746152",
+        "name": "description"
+      },
+      {
+        "id": "27216154",
+        "name": "timestamp"
+      },
+      {
+        "id": "12215134",
+        "name": "geoPosition"
+      },
+      {
+        "id": "21365324",
+        "name": "parentObjectJsonPath"
+      }
+    ],
+    "isRequired": false,
+    "labelText": "",
+    "photoCaption": "Inground Pool Concerns",
+    "photoType": "INGROUND_POOL_CONCERNS"
+  },
+  {
+    "id": "15706182",
+    "name": "descriptionPoolConcern",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Inground Pool Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if poolConcernType is not NONE."
+    ]
+  },
+  {
+    "id": "67876266",
+    "name": "poolConcernType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Inground Pool Concerns",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None",
+      "Empty and uncovered",
+      "Damaged",
+      "Missing Equipment",
+      "No Fence Surrounding Pool",
+      "Damaged Lanai",
+      "Unsanitary Water"
+    ],
+    "valueOptions": [
+      "NONE",
+      "EMPTY_AND_UNCOVERED",
+      "DAMAGED",
+      "MISSING_EQUIPMENT",
+      "NO_FENCE_SURROUNDING_POOL",
+      "DAMAGED_LANAI",
+      "UNSANITARY_WATER"
+    ],
+    "requiredby": [
+      "Conditionally required, may not be null if siteImprovementType set to: INGROUND_POOL"
+    ]
+  },
+  {
+    "id": "50078607",
+    "name": "descriptionSiteImprovement",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Site Improvement Description",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required, may not be null unless siteImprovementType is set to: NONE"
+    ]
+  },
+  {
+    "id": "75428257",
+    "name": "siteImprovementType",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "Site Improvement",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "None",
+      "Ornate Landscaping",
+      "Irrigation System",
+      "Graywater System",
+      "Water Collection System",
+      "Outdoor Kitchen",
+      "Inground Pool",
+      "Inground Hot Tub",
+      "Sport Court",
+      "Sauna",
+      "Orchard (hobby)",
+      "Vineyard (hobby)",
+      "Patio",
+      "Deck",
+      "Fence",
+      "Gazebo",
+      "Other"
+    ],
+    "valueOptions": [
+      "NONE",
+      "ORNATE_LANDSCAPING",
+      "IRRIGATION_SYSTEM",
+      "GRAYWATER_SYSTEM",
+      "WATER_COLLECTION_SYSTEM",
+      "OUTDOOR_KITCHEN",
+      "INGROUND_POOL",
+      "INGROUND_HOTTUB",
+      "SPORT_COURT",
+      "SAUNA",
+      "ORCHARD_HOBBY",
+      "VINEYARD_HOBBY",
+      "PATIO",
+      "DECK",
+      "FENCE",
+      "GAZEBO",
+      "OTHER"
+    ]
+  },
+  {
+    "id": "66685617",
+    "name": "lot",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "77856106",
+        "name": "lotSize"
+      },
+      {
+        "id": "22887178",
+        "name": "lotSizeEstimate"
+      },
+      {
+        "id": "07626287",
+        "name": "lotSizeUnits"
+      }
+    ]
+  },
+  {
+    "id": "07626287",
+    "name": "lotSizeUnits",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "22887178",
+    "name": "lotSizeEstimate",
+    "fieldType": "radio",
+    "isRequired": true,
+    "labelText": "Site Size Estimate",
+    "validators": [
+      "text"
+    ],
+    "dataType": "boolean",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "valueOptions": [
+      "true",
+      "false"
+    ]
+  },
+  {
+    "id": "77856106",
+    "name": "lotSize",
+    "fieldType": "text",
+    "isRequired": true,
+    "labelText": "Site Size",
+    "validators": [
+      "number",
+      "positive"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "44876062",
+    "name": "licenseExpiration",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "Expiration",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if propertyDataCollectorType is APPRAISER, APPRAISER_TRAINEE."
+    ]
+  },
+  {
+    "id": "02462547",
+    "name": "licenseState",
+    "fieldType": "dropdown",
+    "isRequired": false,
+    "labelText": "State",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "options": [
+      "AL",
+      "AK",
+      "AZ",
+      "AR",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "DC",
+      "FL",
+      "GA",
+      "HI",
+      "ID",
+      "IL",
+      "IN",
+      "IA",
+      "KS",
+      "KY",
+      "LA",
+      "ME",
+      "MD",
+      "MA",
+      "MI",
+      "MN",
+      "MS",
+      "MO",
+      "MT",
+      "NE",
+      "NV",
+      "NH",
+      "NJ",
+      "NM",
+      "NY",
+      "NC",
+      "ND",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VT",
+      "VA",
+      "WA",
+      "WV",
+      "WI",
+      "WY"
+    ],
+    "valueOptions": [
+      "AL",
+      "AK",
+      "AZ",
+      "AR",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "DC",
+      "FL",
+      "GA",
+      "HI",
+      "ID",
+      "IL",
+      "IN",
+      "IA",
+      "KS",
+      "KY",
+      "LA",
+      "ME",
+      "MD",
+      "MA",
+      "MI",
+      "MN",
+      "MS",
+      "MO",
+      "MT",
+      "NE",
+      "NV",
+      "NH",
+      "NJ",
+      "NM",
+      "NY",
+      "NC",
+      "ND",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VT",
+      "VA",
+      "WA",
+      "WV",
+      "WI",
+      "WY"
+    ],
+    "requiredby": [
+      "Conditionally required if propertyDataCollectorType is APPRAISER, APPRAISER_TRAINEE."
+    ]
+  },
+  {
+    "id": "21881752",
+    "name": "stateCredentialID",
+    "fieldType": "text",
+    "isRequired": false,
+    "labelText": "State Credential ID",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "requiredby": [
+      "Conditionally required if propertyDataCollectorType is APPRAISER, APPRAISER_TRAINEE."
+    ]
+  },
+  {
+    "comment": "This comes from the client and not the inspector - so it is not visible, but it is required",
+    "id": "26252868",
+    "name": "propertyDataCollectorType",
+    "fieldType": "text",
+    "isRequired": true,
+    "labelText": "Data Collector Type",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string",
+    "isHidden": true
+  },
+  {
+    "id": "78527522",
+    "name": "propertyDataCollectorName",
+    "fieldType": "text",
+    "isRequired": true,
+    "labelText": "Data Collector Name",
+    "validators": [
+      "text"
+    ],
+    "dataType": "string"
+  },
+  {
+    "comment": "This comes from the client and not the inspector - so it is not visible, but it is required",
+    "id": "17645544",
+    "name": "pdaSubmitterEntity",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "07745167",
+    "name": "institutionID",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "27756057",
+    "name": "caseFileID",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "77865621",
+    "name": "version",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "id": "37746152",
+    "name": "description",
+    "fieldType": "text",
+    "labelText": "Image Description",
+    "validators": [
+      "text"
+    ]
+  },
+  {
+    "comment": "Must be unix timestamp in seconds.",
+    "id": "27216154",
+    "name": "timestamp",
+    "fieldType": "text",
+    "validators": [
+      "number"
+    ],
+    "dataType": "integer"
+  },
+  {
+    "id": "12215134",
+    "name": "geoPosition",
+    "fieldType": "object",
+    "properties": [
+      {
+        "id": "87745272",
+        "name": "longitude"
+      },
+      {
+        "id": "55267688",
+        "name": "latitude"
+      }
+    ]
+  },
+  {
+    "id": "21365324",
+    "name": "parentObjectJsonPath",
+    "fieldType": "text",
+    "validators": [
+      "text"
+    ]
+  }
+]

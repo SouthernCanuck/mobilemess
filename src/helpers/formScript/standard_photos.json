@@ -1,0 +1,130 @@
+[
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Address"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Backyard"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Basement"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Bedroom"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Bonus/family room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Breakfast room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Comp 1"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Comp 2"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Comp 3"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Den/office"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Dining room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Entry hall"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Finished Attic"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Full Bathroom"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Game Room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Great room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Half Bathroom"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Interior Garage"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Kitchen"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Living room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Loft(s)"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Media Room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Mud room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Other"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Screened Porch"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Subject Front"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Subject Rear"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Subject Left Side"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Subject Right Side"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Subject Street"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Sun room"
+    },
+    {
+        "imageString": "%base64%",
+        "imageLabel": "Utility room"
+    }
+]

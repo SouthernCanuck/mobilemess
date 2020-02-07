@@ -1,0 +1,13 @@
+[Unit]
+Description=Firstam Webhook server
+After=network.target
+
+[Service]
+Type=simple
+User=firstam
+WorkingDirectory=/srv/firstam/deployment
+ExecStart=/srv/firstam/deployment/expo-appcenter-slack-webhook-server.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

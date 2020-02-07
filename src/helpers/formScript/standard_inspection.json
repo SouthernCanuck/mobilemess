@@ -1,0 +1,4709 @@
+[
+    {
+        "id": "1000001",
+        "name": "appointment",
+        "fieldType": "datetime",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Appointment",
+        "dataType": "string",
+        "section": "Order",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "1000002",
+        "name": "dueDate",
+        "fieldType": "datetime",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Due date",
+        "dataType": "string",
+        "section": "Order",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "1000003",
+        "name": "contactName",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Contact name",
+        "dataType": "string",
+        "section": "Order",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "1000004",
+        "name": "contactPhone",
+        "fieldType": "numeric",
+        "labelText": "Contact phone number",
+        "dataType": "integer",
+        "section": "Order",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "34571851",
+        "name": "generalFileNumber",
+        "fieldType": "text",
+        "labelText": "File number",
+        "dataType": "string",
+        "section": "Order",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "55344574",
+        "name": "generalAddress",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Address",
+        "dataType": "string",
+        "section": "Order",
+        "layout": {
+            "width": 10
+        }
+    },
+    {
+        "id": "87181866",
+        "name": "unitNumber",
+        "fieldType": "numeric",
+        "isRequired": false,
+        "labelText": "Unit",
+        "minLength": 0,
+        "maxLength": 10,
+        "dataType": "integer",
+        "section": "Order",
+        "layout": {
+            "width": 2
+        }
+    },
+    {
+        "id": "75477731",
+        "name": "generalAddressCity",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "City",
+        "dataType": "string",
+        "section": "Order",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "41571583",
+        "name": "generalAddressState",
+        "fieldType": "dropdown",
+        "options": [
+            "AL",
+            "AK",
+            "AZ",
+            "AR",
+            "CA",
+            "CO",
+            "CT",
+            "DE",
+            "DC",
+            "FL",
+            "GA",
+            "HI",
+            "ID",
+            "IL",
+            "IN",
+            "IA",
+            "KS",
+            "KY",
+            "LA",
+            "ME",
+            "MD",
+            "MA",
+            "MI",
+            "MN",
+            "MS",
+            "MO",
+            "MT",
+            "NE",
+            "NV",
+            "NH",
+            "NJ",
+            "NM",
+            "NY",
+            "NC",
+            "ND",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VT",
+            "VA",
+            "WA",
+            "WV",
+            "WI",
+            "WY"
+        ],
+        "valueOptions": [
+            "AL",
+            "AK",
+            "AZ",
+            "AR",
+            "CA",
+            "CO",
+            "CT",
+            "DE",
+            "DC",
+            "FL",
+            "GA",
+            "HI",
+            "ID",
+            "IL",
+            "IN",
+            "IA",
+            "KS",
+            "KY",
+            "LA",
+            "ME",
+            "MD",
+            "MA",
+            "MI",
+            "MN",
+            "MS",
+            "MO",
+            "MT",
+            "NE",
+            "NV",
+            "NH",
+            "NJ",
+            "NM",
+            "NY",
+            "NC",
+            "ND",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VT",
+            "VA",
+            "WA",
+            "WV",
+            "WI",
+            "WY"
+        ],
+        "labelText": "State",
+        "dataType": "string",
+        "section": "Order",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "75547565",
+        "name": "generalAddressZip",
+        "fieldType": "numeric",
+        "labelText": "Zip",
+        "dataType": "integer",
+        "section": "Order",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "58551781",
+        "name": "generalTotalRooms",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "labelText": "Total rooms",
+        "dataType": "integer",
+        "section": "General",
+        "layout": {
+            "width": 3
+        }
+    },
+    {
+        "id": "15853116",
+        "name": "generalBeds",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "labelText": "Beds",
+        "dataType": "integer",
+        "section": "General",
+        "layout": {
+            "width": 3
+        }
+    },
+    {
+        "id": "57778471",
+        "name": "generalFullBaths",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "labelText": "Full baths",
+        "dataType": "integer",
+        "section": "General",
+        "layout": {
+            "width": 3
+        }
+    },
+    {
+        "id": "71878747",
+        "name": "generalHalfBaths",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "labelText": "Half baths",
+        "dataType": "integer",
+        "section": "General",
+        "layout": {
+            "width": 3
+        }
+    },
+    {
+        "id": "71785118",
+        "name": "generalSubjectAttachmentType",
+        "fieldType": "dropdown",
+        "options": [
+            "Attached",
+            "Detached",
+            "Semi-Detached"
+        ],
+        "valueOptions": [
+            "Attached",
+            "Detached",
+            "Semi-Detached"
+        ],
+        "labelText": "Subject attachment type",
+        "dataType": "string",
+        "section": "General",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "17574114",
+        "name": "generalConstructionType",
+        "fieldType": "dropdown",
+        "options": [
+            "Existing",
+            "Proposed",
+            "Under Const."
+        ],
+        "valueOptions": [
+            "Existing",
+            "Proposed",
+            "Under Const."
+        ],
+        "labelText": "Construction type",
+        "dataType": "string",
+        "section": "General",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "77557887",
+        "name": "generalPudHoa",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "PUD/HOA",
+        "dataType": "boolean",
+        "section": "General",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "57715171",
+        "name": "generalHoaFee",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "HOA $",
+        "dataType": "string",
+        "section": "General",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "77557887",
+                "values": ["false"],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "78837715",
+        "name": "generalHoaFrequency",
+        "fieldType": "dropdown",
+        "options": [
+            "Monthly",
+            "Annual"
+        ],
+        "valueOptions": [
+            "Monthly",
+            "Annual"
+        ],
+        "labelText": "Frequency",
+        "dataType": "string",
+        "section": "General",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "77557887",
+                "values": [
+                    "false"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "35787754",
+        "name": "generalComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "General",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "87888185",
+        "name": "influencesPowerLines",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Overhead power lines",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "73441117",
+        "name": "influencesAirport",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Airport/flight paths",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "58811477",
+        "name": "influencesRailroad",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Railroad tracks",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "87851781",
+        "name": "influencesTraffic",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Traffic/highways",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "54583854",
+        "name": "influencesBoardedHomes",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Boarded-up homes",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "48715878",
+        "name": "influencesWasteManagement",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Waste management facilities",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "51754717",
+        "name": "influencesMultifamilyHousing",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Multifamily housing",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "17713881",
+        "name": "influencesCommercialIndustrial",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Commercial/industrial",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "81534157",
+        "name": "influencesFarming",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Farming",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "88874817",
+        "name": "influencesEnvironmentalHazard",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Environmental hazard",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "48498731",
+        "name": "influencesLakesPonds",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Lakes or ponds",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "47174473",
+        "name": "influencesGolfCourse",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Golf course",
+        "dataType": "boolean",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "43494755",
+        "name": "influencesComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Neighborhood Influences",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "37785185",
+        "name": "exteriorStories",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "labelText": "Stories",
+        "dataType": "integer",
+        "section": "Exterior",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "48177775",
+        "name": "exteriorDimensions",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Site dimensions",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "35554998",
+        "name": "exteriorView",
+        "fieldType": "multiselect",
+        "options": [
+            "City Street",
+            "City Skyline",
+            "Golf Course",
+            "Industrial",
+            "Limited Sight",
+            "Mountain",
+            "Park",
+            "Pastoral",
+            "Power Lines",
+            "Residential",
+            "Water",
+            "Woods",
+            "Other"
+        ],
+        "valueOptions": [
+            "City Street",
+            "City Skyline",
+            "Golf Course",
+            "Industrial",
+            "Limited Sight",
+            "Mountain",
+            "Park",
+            "Pastoral",
+            "Power Lines",
+            "Residential",
+            "Water",
+            "Woods",
+            "Other"
+        ],
+        "labelText": "View",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "84819559",
+        "name": "exteriorViewInfluence",
+        "fieldType": "dropdown",
+        "options": [
+            "Neutral",
+            "Beneficial",
+            "Adverse"
+        ],
+        "valueOptions": [
+            "Neutral",
+            "Beneficial",
+            "Adverse"
+        ],
+        "labelText": "Influence",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "48974549",
+        "name": "exteriorLocation",
+        "fieldType": "multiselect",
+        "options": [
+            "Park",
+            "Power lines",
+            "Busy Road",
+            "Commercial",
+            "Golf Course",
+            "Industrial",
+            "Landfill",
+            "Public Transportation",
+            "Residential",
+            "Water Front",
+            "Other"
+        ],
+        "valueOptions": [
+            "Park",
+            "Power lines",
+            "Busy Road",
+            "Commercial",
+            "Golf Course",
+            "Industrial",
+            "Landfill",
+            "Public Transportation",
+            "Residential",
+            "Water Front",
+            "Other"
+        ],
+        "labelText": "Location",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "18485848",
+        "name": "exteriorLocationInfluence",
+        "fieldType": "dropdown",
+        "options": [
+            "Neutral",
+            "Beneficial",
+            "Adverse"
+        ],
+        "valueOptions": [
+            "Neutral",
+            "Beneficial",
+            "Adverse"
+        ],
+        "labelText": "Influence",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "87155718",
+        "name": "exteriorFoundationWalls",
+        "fieldType": "multiselect",
+        "options": [
+            "Block and Beam",
+            "Board and Batten",
+            "Brick",
+            "Cinder Block",
+            "Concrete Block",
+            "Dirt",
+            "Elevated",
+            "Fieldstone",
+            "Grade Beam",
+            "Monolithic",
+            "Perimeter",
+            "Pier and Beam",
+            "Pier Only",
+            "Pilings",
+            "Poured Concrete",
+            "Slab",
+            "Steel",
+            "Stem Wall",
+            "Stone",
+            "Wood"
+        ],
+        "valueOptions": [
+            "Blk & Beam",
+            "Brd & Batn",
+            "Brick",
+            "Cinder Blk",
+            "Con Blk",
+            "Dirt",
+            "Elevated",
+            "Fieldstone",
+            "Grade Beam",
+            "Monolithic",
+            "Perimeter",
+            "Pier & Beam",
+            "Pier Only",
+            "Pilings",
+            "Pourd Con",
+            "Slab",
+            "Steel",
+            "Stem Wall",
+            "Stone",
+            "Wood"
+        ],
+        "labelText": "Foundation walls",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "57543788",
+        "name": "exteriorFoundationWallsInfluence",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "55471388",
+        "name": "exteriorWalls",
+        "fieldType": "multiselect",
+        "options": [
+            "Adobe",
+            "Artificial Stone",
+            "Asbestos Shingle",
+            "Brick and Stone",
+            "Brick/Wood Siding",
+            "Brick",
+            "Cedar",
+            "Cement Shingles",
+            "Cinder Block",
+            "Clapboard",
+            "Clay Tile",
+            "Composition Siding",
+            "Concrete Block",
+            "Dryvit",
+            "Glass and Steel",
+            "Hardboard Siding",
+            "Iron",
+            "Log",
+            "Masonite",
+            "Masonry Veneer",
+            "Masonry",
+            "Metal Siding",
+            "Native Stone",
+            "Poured Concrete",
+            "Precast Concrete",
+            "Pressboard",
+            "Stone",
+            "Stucco and Wood",
+            "Synthetic Plaster",
+            "Tin",
+            "Veneer",
+            "Vinyl Siding",
+            "Wood Shake",
+            "Wood Shingles",
+            "Wood Siding"
+        ],
+        "valueOptions": [
+            "Adobe",
+            "Atrifc Stn",
+            "Asb Shgle",
+            "Brk & Stone",
+            "Brk/Wood Sid",
+            "Brick",
+            "Cedar",
+            "Cmt Shgle",
+            "Cinder Blk",
+            "Clapboard",
+            "Clay Tile",
+            "Compst Sid",
+            "Con Blk",
+            "Dryvit",
+            "Glass and Steel",
+            "Hdbrd Sid",
+            "Iron",
+            "Log",
+            "Masonite",
+            "Msny Vner",
+            "Masonry",
+            "Metal Siding",
+            "Native Stone",
+            "Pourd Con",
+            "Precst Con",
+            "Pressboard",
+            "Stone",
+            "Stuc & Wd",
+            "Synth Plstr",
+            "Tin",
+            "Veneer",
+            "Vinyl Siding",
+            "Wd Shake",
+            "Wd Shgle",
+            "Wd Sid"
+        ],
+        "labelText": "Exterior walls",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "58338544",
+        "name": "exteriorWallsInfluence",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "78181758",
+        "name": "exteriorRoofSurface",
+        "fieldType": "multiselect",
+        "options": [
+            "Aluminum Shake",
+            "Asbestos Shingle",
+            "Asphalt Shingle",
+            "Cement Fiber Shingle",
+            "Clay Tile",
+            "Composition Shingle",
+            "Concrete Tile",
+            "Copper",
+            "Corrugated Iron",
+            "Corrugated Steel",
+            "Fiberglass Shingles",
+            "Metal Shingles",
+            "Mission Tile",
+            "Plastic Tile",
+            "Tock",
+            "Slate",
+            "Spanish Tile",
+            "Synthetic Tile",
+            "Tar and Gravel",
+            "Thatch",
+            "Tin",
+            "Wood Shake",
+            "Wood Shingles"
+        ],
+        "valueOptions": [
+            "Alum Shake",
+            "Asb Shgle",
+            "Asph Shgle",
+            "Cm Fbr Shgle",
+            "Clay Tile",
+            "Compst Shgle",
+            "Con Tile",
+            "Copper",
+            "Corrug Iron",
+            "Corrug Stl",
+            "Fib Shgle",
+            "Metal Shgle",
+            "Miss Tile",
+            "Plastic Tile",
+            "Tock",
+            "Slate",
+            "Span Tile",
+            "Syth Tile",
+            "Tar & Grvl",
+            "Thatch",
+            "Tin",
+            "Wd Shke",
+            "Wd Shgle"
+        ],
+        "labelText": "Roof surface",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "87511758",
+        "name": "exteriorRoofSurfaceCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "75587511",
+        "name": "exteriorGuttersDownspouts",
+        "fieldType": "dropdown",
+        "options": [
+            "Aluminum",
+            "Copper",
+            "Galvanized Steel",
+            "Iron",
+            "PVC",
+            "Plastic",
+            "Tin",
+            "Vinyl"
+        ],
+        "valueOptions": [
+            "Alum",
+            "Copper",
+            "Glv Stel",
+            "Iron",
+            "PVC",
+            "Plastic",
+            "Tin",
+            "Vinyl"
+        ],
+        "labelText": "Gutters/downspouts",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "45854185",
+        "name": "exteriorGuttersDownspoutsCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "25483558",
+        "name": "exteriorWindowType",
+        "fieldType": "multiselect",
+        "options": [
+            "Alum. Casement",
+            "Awning Fixed",
+            "Barn Sash",
+            "Bay",
+            "Bow",
+            "Clerestory",
+            "Crank Out",
+            "Custom",
+            "Double Hung",
+            "Fixed Garden",
+            "Glass Block",
+            "Hopper",
+            "Jalousies",
+            "Leaded Glass",
+            "Metal DBL Pane",
+            "Palladium",
+            "Pivoted",
+            "Plastic",
+            "Projected",
+            "Siding",
+            "Single Hung",
+            "Stained Glass",
+            "Stationary",
+            "Steel Casement",
+            "Steel Sash",
+            "Thermal Pane",
+            "Vinyl",
+            "Wood Clad",
+            "Wood Dbl Pane",
+            "Wood Encasement"
+        ],
+        "valueOptions": [
+            "Alum Csmnt",
+            "Awning Fxd",
+            "Barn Sash",
+            "Bay",
+            "Bow",
+            "Clerestory",
+            "Crank Out",
+            "Custom",
+            "Dbl Hung",
+            "Fxd Grdn",
+            "Glass Blk",
+            "Hopper",
+            "Jalousies",
+            "Lead Glass",
+            "Mtl Dbl Pn",
+            "Palladium",
+            "Pivoted",
+            "Plastic",
+            "Projected",
+            "Siding",
+            "Sngl Hung",
+            "Std Glass",
+            "Stationary",
+            "Stl Csmnt",
+            "Steel Sash",
+            "Therm Pn",
+            "Vinyl",
+            "Wood Clad",
+            "Wd Dbl Pn",
+            "Wd Csmnt"
+        ],
+        "labelText": "Window type",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "58538574",
+        "name": "exteriorWindowTypeCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "45384152",
+        "name": "exteriorStormSash",
+        "fieldType": "multiselect",
+        "options": [
+            "Aluminum Frame",
+            "Cloth",
+            "Combination",
+            "Double Pane",
+            "Dual Glazed",
+            "Fiberglass",
+            "Metal",
+            "Nylon",
+            "Plastic",
+            "Plywood",
+            "Sun Screen",
+            "Thermal Pane",
+            "Vinyl",
+            "Wood Frame"
+        ],
+        "valueOptions": [
+            "Alum Frm",
+            "Cloth",
+            "Combo",
+            "Dbl Pn",
+            "Dual Glz",
+            "Fiberglass",
+            "Metal",
+            "Nylon",
+            "Plastic",
+            "Plywood",
+            "Sun Screen",
+            "Therm Pn",
+            "Vinyl",
+            "Wd Frame"
+        ],
+        "labelText": "Storm sash/insulated",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "45755788",
+        "name": "exteriorStormSashCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "55835717",
+        "name": "exteriorScreens",
+        "fieldType": "multiselect",
+        "options": [
+            "Aluminum",
+            "Cloth",
+            "Metal",
+            "Nylon"
+        ],
+        "valueOptions": [
+            "Aluminum",
+            "Cloth",
+            "Metal",
+            "Nylon"
+        ],
+        "labelText": "Screens",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "11571357",
+        "name": "exteriorScreensCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "31713877",
+        "name": "exteriorComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Exterior",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "15843537",
+        "name": "amenitiesAccessoryUnit",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Accessory unit",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "18751558",
+        "name": "amenitiesPool",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Pool",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "75875825",
+        "name": "amenitiesPoolCount",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Desc. of pools",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "48517573",
+        "name": "amenitiesSpa",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Spa",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "81475558",
+        "name": "amenitiesOutdoorKitchen",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Outdoor kitchen",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "48183458",
+        "name": "amenitiesSolarPanels",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Solar panels",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "38455375",
+        "name": "amenitiesBackupGenerator",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Back-up generator",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "55883534",
+        "name": "amenitiesPatioDeck",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Patio / deck",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "84451877",
+        "name": "amenitiesPatioCount",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Desc of patio / deck",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "87738845",
+        "name": "amenitiesPorch",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Covered patio / porch",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "34115315",
+        "name": "amenitiesPorchCount",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Desc of covered patio / porches",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "51588113",
+        "name": "amenitiesFireplaces",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Fireplaces",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "55547533",
+        "name": "amenitiesFireplacesCount",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Number of fireplaces",
+        "dataType": "string",
+        "section": "Amenities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "54374378",
+        "name": "amenitiesThreeSeasonPorch",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Three season porch",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "78837754",
+        "name": "amenitiesBalcony",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Balcony",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "58881787",
+        "name": "amenitiesWoodstove",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Woodstove",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "55554858",
+        "name": "amenitiesWoodstoveCount",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Number of woodstoves",
+        "dataType": "string",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "78553818",
+        "name": "amenitiesFence",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Fence",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "55483548",
+        "name": "amenitiesFenceCount",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Desc of fences",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "51771714",
+        "name": "amenitiesOther",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Other",
+        "dataType": "boolean",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "87148878",
+        "name": "amenitiesOtherCount",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Desc of other",
+        "section": "Amenities",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "87534375",
+        "name": "amenitiesComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Amenities",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "20000002",
+        "name": "parkingPresent",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Is parking available?",
+        "dataType": "boolean",
+        "section": "Parking",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "35581578",
+        "name": "parkingGarageSpaces",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "labelText": "Garage spaces",
+        "dataType": "integer",
+        "section": "Parking",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000002",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "88555447",
+        "name": "parkingCarportSpaces",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "labelText": "Carport spaces",
+        "dataType": "integer",
+        "section": "Parking",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000002",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "14417158",
+        "name": "parkingDrivewaySpaces",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ],
+        "labelText": "Driveway spaces",
+        "dataType": "integer",
+        "section": "Parking",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000002",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "58475814",
+        "name": "parkingDrivewaySurface",
+        "fieldType": "multiselect",
+        "options": [
+            "Asphalt",
+            "Brick",
+            "Concrete",
+            "Crushed Rocks",
+            "Dirt",
+            "Gravel",
+            "Pavers",
+            "Stone"
+        ],
+        "valueOptions": [
+            "Asphalt",
+            "Brick",
+            "Concrete",
+            "Crushed Rocks",
+            "Dirt",
+            "Gravel",
+            "Pavers",
+            "Stone"
+        ],
+        "labelText": "Driveway surface",
+        "dataType": "string",
+        "section": "Parking",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000002",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "54447518",
+        "name": "parkingGarageType",
+        "fieldType": "dropdown",
+        "options": [
+            "Attached",
+            "Detached",
+            "Built-in"
+        ],
+        "valueOptions": [
+            "Attached",
+            "Detached",
+            "Built-in"
+        ],
+        "labelText": "Garage type",
+        "dataType": "string",
+        "section": "Parking",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000002",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "85188887",
+        "name": "parkingComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Parking",
+        "layout": {
+            "width": 12
+        },
+        "requiredby": [
+            {
+                "id": "20000002",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "51554183",
+        "name": "floorType",
+        "fieldType": "multiselect",
+        "options": [
+            "Brick",
+            "Carpet",
+            "Carpet/Vinyl",
+            "Composition Sheet",
+            "Concrete",
+            "Cork",
+            "Dirt",
+            "Exposed Aggregate",
+            "Flagstone",
+            "Granite",
+            "Hardwood/Carpet",
+            "Hardwood/Vinyl",
+            "Hardwood",
+            "Linoleum",
+            "Marble",
+            "Parquet",
+            "Softwood",
+            "Stone",
+            "Tile board",
+            "Tile",
+            "Tongue and Groove"
+        ],
+        "valueOptions": [
+            "Brick",
+            "Carpet",
+            "Crpt/Vnyl",
+            "Compo Sht",
+            "Concrete",
+            "Cork",
+            "Dirt",
+            "Expsd Agg",
+            "Flagstone",
+            "Granite",
+            "Hdwd/Crpt",
+            "Hdwd/Vnyl",
+            "Hardwood",
+            "Linoleum",
+            "Marble",
+            "Parquet",
+            "Softwood",
+            "Stone",
+            "Tile board",
+            "Tile",
+            "T and G"
+        ],
+        "labelText": "Floors",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "55131548",
+        "name": "floorTypeCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "53551878",
+        "name": "floorsWalls",
+        "fieldType": "multiselect",
+        "options": [
+            "Adobe",
+            "Block Paneling",
+            "Brick",
+            "Carpet",
+            "Concrete",
+            "Cork",
+            "Drywall",
+            "Fabric",
+            "Glass Block",
+            "Gypsum Board",
+            "Hardwood",
+            "Lock",
+            "Log",
+            "Mirrored",
+            "Open Studs",
+            "Painted",
+            "Plaster",
+            "Plywood",
+            "Sheetrock",
+            "Skim Coat",
+            "Stone",
+            "Stucco",
+            "Textured",
+            "Tile",
+            "Tongue and Groove",
+            "Wallpaper",
+            "Wood"
+        ],
+        "valueOptions": [
+            "Adobe",
+            "Blk Panel",
+            "Brick",
+            "Carpet",
+            "Concrete",
+            "Cork",
+            "Drywall",
+            "Fabric",
+            "Glass Blk",
+            "Gyps Brd",
+            "Hardwood",
+            "Lock",
+            "Log",
+            "Mirrored",
+            "Open Studs",
+            "Painted",
+            "Plaster",
+            "Plywood",
+            "Sheetrock",
+            "Skim Coat",
+            "Stone",
+            "Stucco",
+            "Textured",
+            "Tile",
+            "T and G",
+            "Wall",
+            "Wood"
+        ],
+        "labelText": "Walls",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "77577158",
+        "name": "floorsWallsCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "38451514",
+        "name": "floorsTrimFinish",
+        "fieldType": "multiselect",
+        "options": [
+            "Beam Ceiling",
+            "Chair Rail",
+            "Crown Molding",
+            "Metal",
+            "Plastic",
+            "Vinyl",
+            "Wood/Paint",
+            "Wood"
+        ],
+        "valueOptions": [
+            "Beam Ceiling",
+            "Chair Rail",
+            "Crown Molding",
+            "Metal",
+            "Plastic",
+            "Vinyl",
+            "Wood/Paint",
+            "Wood"
+        ],
+        "labelText": "Trim/finish",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "54585185",
+        "name": "floorsTrimFinishCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "83878175",
+        "name": "floorsBathFloor",
+        "fieldType": "multiselect",
+        "options": [
+            "Brick",
+            "Carpet",
+            "Carpet/Vinyl",
+            "Composition Sheet",
+            "Concrete",
+            "Cork",
+            "Dirt",
+            "Exposed Aggregate",
+            "Flagstone",
+            "Granite",
+            "Hardwood/Carpet",
+            "Hardwood/Vinyl",
+            "Hardwood",
+            "Linoleum",
+            "Marble",
+            "Parquet",
+            "Softwood",
+            "Stone",
+            "Tile board",
+            "Tile",
+            "Tongue and Groove"
+        ],
+        "valueOptions": [
+            "Brick",
+            "Carpet",
+            "Crpt/Vnyl",
+            "Compo Sht",
+            "Concrete",
+            "Cork",
+            "Dirt",
+            "Expsd Agg",
+            "Flagstone",
+            "Granite",
+            "Hdwd/Crpt",
+            "Hdwd/Vnyl",
+            "Hardwood",
+            "Linoleum",
+            "Marble",
+            "Parquet",
+            "Softwood",
+            "Stone",
+            "Tile board",
+            "Tile",
+            "T and G"
+        ],
+        "labelText": "Bath floor",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "55787787",
+        "name": "floorsBathFloorCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "31855888",
+        "name": "floorsBathWainscot",
+        "fieldType": "multiselect",
+        "options": [
+            "Ceramic Tile",
+            "Ceramic/Fiberglass",
+            "Corian",
+            "Drywall",
+            "Fiberglass",
+            "Formica",
+            "Granite",
+            "Marble",
+            "Marlite",
+            "Masonite",
+            "Mirrored",
+            "Sheetrock",
+            "Solid Plastic",
+            "Tile",
+            "Wall Paper",
+            "Wood"
+        ],
+        "valueOptions": [
+            "Crmc Tile",
+            "Crmc/Fibgl",
+            "Corian",
+            "Drywall",
+            "Fiberglass",
+            "Formica",
+            "Granite",
+            "Marble",
+            "Marlite",
+            "Masonite",
+            "Mirrored",
+            "Sheetrock",
+            "Solid Plastic",
+            "Tile",
+            "Wall Paper",
+            "Wood"
+        ],
+        "labelText": "Bath wainscot",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "18851157",
+        "name": "floorsBathWainscotCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "New",
+            "Good",
+            "Average",
+            "Fair",
+            "Poor",
+            "Damaged",
+            "Obsolete"
+        ],
+        "valueOptions": [
+            "New",
+            "Good",
+            "Avg",
+            "Fair",
+            "Poor",
+            "Dmgd",
+            "Obsolete"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "18711847",
+        "name": "floorsComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Interior",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "34118335",
+        "name": "appliancesStoveType",
+        "fieldType": "dropdown",
+        "options": [
+            "Gas",
+            "Electric"
+        ],
+        "valueOptions": [
+            "Gas",
+            "Electric"
+        ],
+        "labelText": "Stove type",
+        "dataType": "string",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "84688553",
+        "name": "appliancesRangeOven",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Range/oven(s)",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "43851534",
+        "name": "appliancesCooktopBurners",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Cooktop burner(s)",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "68785481",
+        "name": "appliancesRefrigerator",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Refrigerator",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "58185746",
+        "name": "appliancesFreezer",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Freezer",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "58181318",
+        "name": "appliancesDishwasher",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Dishwasher",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "44868388",
+        "name": "appliancesTrashCompactor",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Trash compactor",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "88155473",
+        "name": "appliancesPotFiller",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Pot filler",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "71585717",
+        "name": "appliancesVentFan",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Vent fan",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "51577534",
+        "name": "appliancesGarbageDisposal",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Garbage disposal",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "73855317",
+        "name": "appliancesBuiltInMicrowave",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Built-in microwave",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "47187318",
+        "name": "appliancesWalkInPantry",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Walk in pantry",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "57783344",
+        "name": "appliancesButlersPantry",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Butler's pantry",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "35883878",
+        "name": "appliancesWasherDryer",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Washer/dryer",
+        "dataType": "boolean",
+        "section": "Appliances",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "88151788",
+        "name": "appliancesComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Appliances",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "85375513",
+        "name": "foundationConcreteSlab",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Concrete slab",
+        "dataType": "boolean",
+        "section": "Foundation",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "88858878",
+        "name": "foundationCrawlSpace",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Crawl space",
+        "dataType": "boolean",
+        "section": "Foundation",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "78113851",
+        "name": "foundationInfestation",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Evidence of infestation",
+        "dataType": "boolean",
+        "section": "Foundation",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "81337371",
+        "name": "foundationDampness",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Apparent dampness",
+        "dataType": "boolean",
+        "section": "Foundation",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "53178773",
+        "name": "foundationComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Foundation",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "20000001",
+        "name": "basementPresent",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Is there a basement?",
+        "dataType": "boolean",
+        "section": "Basement",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "88183551",
+        "name": "basementPartialType",
+        "fieldType": "dropdown",
+        "options": [
+            "Full Basement",
+            "Partial Basement"
+        ],
+        "valueOptions": [
+            "Full Basement",
+            "Partial Basement"
+        ],
+        "labelText": "Basement type",
+        "dataType": "string",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "71515785",
+        "name": "basementSquareFeet",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Total area",
+        "dataType": "string",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "78185815",
+        "name": "basementPercentFinished",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Finished area %",
+        "dataType": "string",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "14585377",
+        "name": "basementExitType",
+        "fieldType": "dropdown",
+        "options": [
+            "Walk Out",
+            "Walk Up",
+            "Interior Only"
+        ],
+        "valueOptions": [
+            "Walk Out",
+            "Walk Up",
+            "Interior Only"
+        ],
+        "labelText": "Exit type",
+        "dataType": "string",
+        "section": "Basement",
+        "layout": {
+            "width": 12
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "13188857",
+        "name": "basementRecreationRooms",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "labelText": "Recreation rooms",
+        "dataType": "integer",
+        "section": "Basement",
+        "layout": {
+            "width": 2
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "11185849",
+        "name": "basementBedrooms",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "labelText": "Bedrooms",
+        "dataType": "integer",
+        "section": "Basement",
+        "layout": {
+            "width": 2
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "18519881",
+        "name": "basementFullBathrooms",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "labelText": "Full bathrooms",
+        "dataType": "integer",
+        "section": "Basement",
+        "layout": {
+            "width": 2
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "53787891",
+        "name": "basementHalfBathrooms",
+        "fieldType": "numeric",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "labelText": "Half bathrooms",
+        "dataType": "integer",
+        "section": "Basement",
+        "layout": {
+            "width": 2
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "37597599",
+        "name": "basementOther",
+        "fieldType": "dropdown",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "valueOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "labelText": "Other rooms",
+        "dataType": "integer",
+        "section": "Basement",
+        "layout": {
+            "width": 2
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "39135895",
+        "name": "basementApparentDampness",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Apparent dampness",
+        "dataType": "boolean",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "77537184",
+        "name": "basementSumpPump",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Sump pump in place",
+        "dataType": "boolean",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "97557547",
+        "name": "basementSecondaryEgress",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Secondary egress present",
+        "dataType": "boolean",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "75598177",
+        "name": "basementKitchen",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Kitchen",
+        "dataType": "boolean",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "51501705",
+        "name": "basementWalkOut",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Walk out",
+        "dataType": "boolean",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "75347153",
+        "name": "basementWalkUp",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Walk up",
+        "dataType": "boolean",
+        "section": "Basement",
+        "layout": {
+            "width": 4
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "18175558",
+        "name": "basementComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Basement",
+        "layout": {
+            "width": 12
+        },
+        "requiredby": [
+            {
+                "id": "20000001",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "58455507",
+        "name": "atticPresent",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Attic present?",
+        "dataType": "boolean",
+        "section": "Attic",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "14388581",
+        "name": "atticHeated",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Heated",
+        "dataType": "boolean",
+        "section": "Attic",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "58455507",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "50755515",
+        "name": "atticDropStairs",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Drop stair",
+        "dataType": "boolean",
+        "section": "Attic",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "58455507",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "87778588",
+        "name": "atticStairs",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Stairs",
+        "dataType": "boolean",
+        "section": "Attic",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "58455507",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "35585787",
+        "name": "atticFloors",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Floor",
+        "dataType": "boolean",
+        "section": "Attic",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "58455507",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "71505710",
+        "name": "atticScuttle",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Scuttle",
+        "dataType": "boolean",
+        "section": "Attic",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "58455507",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "98595803",
+        "name": "atticFinished",
+        "fieldType": "checkbox",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Finished",
+        "dataType": "boolean",
+        "section": "Attic",
+        "layout": {
+            "width": 3
+        },
+        "requiredby": [
+            {
+                "id": "58455507",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "13058715",
+        "name": "atticComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Attic",
+        "layout": {
+            "width": 12
+        },
+        "requiredby": [
+            {
+                "id": "58455507",
+                "values": [
+                    "true"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "78473011",
+        "name": "heatingType",
+        "fieldType": "dropdown",
+        "options": [
+            "Forced Warm Air",
+            "Hot Water Baseboard",
+            "Radiant",
+            "Other"
+        ],
+        "valueOptions": [
+            "Forced Warm Air",
+            "Hot Water Baseboard",
+            "Radiant",
+            "Other"
+        ],
+        "labelText": "Heating",
+        "dataType": "string",
+        "section": "Heating/Cooling",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "45058808",
+        "name": "heatingComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Heating/Cooling",
+        "layout": {
+            "width": 12
+        },
+        "requiredby": [
+            {
+                "id": "78473011",
+                "values": [
+                    "Other"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "53777588",
+        "name": "heatingFuel",
+        "fieldType": "multiselect",
+        "options": [
+            "Coal",
+            "Electric",
+            "Gas",
+            "LPG",
+            "Natural Gas",
+            "Oil",
+            "Propane",
+            "Solar",
+            "Wood Pellets",
+            "Wood"
+        ],
+        "valueOptions": [
+            "Coal",
+            "Electric",
+            "Gas",
+            "LPG",
+            "Natural Gas",
+            "Oil",
+            "Propane",
+            "Solar",
+            "Wood Pellets",
+            "Wood"
+        ],
+        "labelText": "Fuel",
+        "dataType": "string",
+        "section": "Heating/Cooling",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "57578175",
+        "name": "heatingCoolingType",
+        "fieldType": "multiselect",
+        "options": [
+            "Central Air Conditioning",
+            "Individual",
+            "Other"
+        ],
+        "valueOptions": [
+            "Central Air Conditioning",
+            "Individual",
+            "Other"
+        ],
+        "labelText": "Cooling",
+        "dataType": "string",
+        "section": "Heating/Cooling",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "20000003",
+        "name": "coolingComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Heating/Cooling",
+        "layout": {
+            "width": 12
+        },
+        "requiredby": [
+            {
+                "id": "57578175",
+                "values": [
+                    "Other"
+                ],
+                "condition": "equal"
+            }
+        ]
+    },
+    {
+        "id": "54415595",
+        "name": "utilitiesElectricity",
+        "fieldType": "radio",
+        "options": [
+            "Public",
+            "Other"
+        ],
+        "valueOptions": [
+            "PUBLIC",
+            "OTHER"
+        ],
+        "labelText": "Electricity",
+        "dataType": "boolean",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "77545143",
+        "name": "utilitiesElectricityOtherDescription",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Electricity - other description",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "81145515",
+        "name": "utilitiesGas",
+        "fieldType": "radio",
+        "options": [
+            "Public",
+            "Other"
+        ],
+        "valueOptions": [
+            "PUBLIC",
+            "OTHER"
+        ],
+        "labelText": "Gas",
+        "dataType": "boolean",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "13173358",
+        "name": "utilitiesGasOtherDescription",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Gas - other description",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "89884855",
+        "name": "utilitiesWater",
+        "fieldType": "radio",
+        "options": [
+            "Public",
+            "Other"
+        ],
+        "valueOptions": [
+            "PUBLIC",
+            "OTHER"
+        ],
+        "labelText": "Water",
+        "dataType": "boolean",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "88585518",
+        "name": "utilitiesWaterOtherDescription",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Water - other description",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "94747558",
+        "name": "utilitiesSewer",
+        "fieldType": "radio",
+        "options": [
+            "Public",
+            "Other"
+        ],
+        "valueOptions": [
+            "PUBLIC",
+            "OTHER"
+        ],
+        "labelText": "Sewer",
+        "dataType": "boolean",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "15951198",
+        "name": "utilitiesSewerOtherDescription",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Sewer - other description",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "15391988",
+        "name": "utilitiesStreet",
+        "fieldType": "radio",
+        "options": [
+            "Public",
+            "Private"
+        ],
+        "valueOptions": [
+            "PUBLIC",
+            "PRIVATE"
+        ],
+        "labelText": "Street",
+        "dataType": "boolean",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "19787579",
+        "name": "utilitiesStreetOtherDescription",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Street - other description",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "94747188",
+        "name": "utilitiesAlley",
+        "fieldType": "radio",
+        "options": [
+            "Public",
+            "Private"
+        ],
+        "valueOptions": [
+            "PUBLIC",
+            "PRIVATE"
+        ],
+        "labelText": "Alley",
+        "dataType": "boolean",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "81371893",
+        "name": "utilitiesAlleyOtherDescription",
+        "fieldType": "text",
+        "options": [],
+        "valueOptions": [],
+        "dataType": "string",
+        "labelText": "Alley - other description",
+        "section": "Utilities",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "19193515",
+        "name": "utilitiesComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Utilities",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "58319175",
+        "name": "damageWater",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Water/flood damage",
+        "dataType": "boolean",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "18815718",
+        "name": "damageBrokenWindows",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Broken windows",
+        "dataType": "boolean",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "75578175",
+        "name": "damageFire",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Fire damage",
+        "dataType": "boolean",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "54778181",
+        "name": "damageWind",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Wind damage",
+        "dataType": "boolean",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "81355577",
+        "name": "damageSiding",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Apparent siding damage",
+        "dataType": "boolean",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "94979755",
+        "name": "damageStructural",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Apparent structural damage",
+        "dataType": "boolean",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 4
+        }
+    },
+    {
+        "id": "58287775",
+        "name": "damageFoundation",
+        "fieldType": "radio",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "valueOptions": [
+            "true",
+            "false"
+        ],
+        "labelText": "Apparent foundation damage",
+        "dataType": "boolean",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 8
+        }
+    },
+    {
+        "id": "57375115",
+        "name": "damageCondition",
+        "fieldType": "dropdown",
+        "options": [
+            "C1 - New Recently Constructed (New construction)",
+            "C2 - Almost New, Renovated (No repairs or updates required)",
+            "C3 - Well maintained (Limited depreciation, recently updated)",
+            "C4 - Adequately Maintained (Requires minimal repairs/updating)",
+            "C5 - Poorly Maintained (Obvious repairs required)",
+            "C6 - Severe Damage (Substantial repairs required)"
+        ],
+        "valueOptions": [
+            "C1 - New Recently Constructed (New construction)",
+            "C2 - Almost New, Renovated (No repairs or updates required)",
+            "C3 - Well maintained (Limited depreciation, recently updated)",
+            "C4 - Adequately Maintained (Requires minimal repairs/updating)",
+            "C5 - Poorly Maintained (Obvious repairs required)",
+            "C6 - Severe Damage (Substantial repairs required)"
+        ],
+        "labelText": "Condition",
+        "dataType": "string",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "79514414",
+        "name": "damageQuality",
+        "fieldType": "dropdown",
+        "options": [
+            "Q1 - Exceptionally High (High grade model)",
+            "Q2 - Very High, Custom (High quality development)",
+            "Q3 - Well maintained (Limited depreciation, recently updated)",
+            "Q4 - Standard (Builder grade stock materials)",
+            "Q5 - Below Standard (Meets minimal building codes)",
+            "Q6 - Very Poor (Low quality materials, non-conforming)"
+        ],
+        "valueOptions": [
+            "Q1 - Exceptionally High (High grade model)",
+            "Q2 - Very High, Custom (High quality development)",
+            "Q3 - Well maintained (Limited depreciation, recently updated)",
+            "Q4 - Standard (Builder grade stock materials)",
+            "Q5 - Below Standard (Meets minimal building codes)",
+            "Q6 - Very Poor (Low quality materials, non-conforming)"
+        ],
+        "labelText": "Quality",
+        "dataType": "string",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 6
+        }
+    },
+    {
+        "id": "22451415",
+        "name": "damageComment",
+        "fieldType": "textarea",
+        "options": [],
+        "valueOptions": [],
+        "labelText": "Comments",
+        "dataType": "string",
+        "section": "Damage/Condition &amp; Quality",
+        "layout": {
+            "width": 12
+        }
+    },
+    {
+        "id": "15125897",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Street left",
+        "photoCaption": "Subject Street",
+        "photoType": "STREET_LEFT",
+        "section": "General"
+    },
+    {
+        "id": "25646599",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Street right",
+        "photoCaption": "Street Right",
+        "photoType": "STREET_RIGHT",
+        "section": "General"
+    },
+    {
+        "id": "08288799",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Structure front",
+        "photoCaption": "Structure Front",
+        "photoType": "STRUCTURE_FRONT",
+        "section": "Exterior"
+    },
+    {
+        "id": "31131383",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Structure rear",
+        "photoCaption": "Structure Rear",
+        "photoType": "STRUCTURE_REAR",
+        "section": "Exterior"
+    },
+    {
+        "id": "22725726",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Structure left",
+        "photoCaption": "Structure Left",
+        "photoType": "STRUCTURE_LEFT_SIDE",
+        "section": "Exterior"
+    },
+    {
+        "id": "13335755",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Structure right",
+        "photoCaption": "Structure Right",
+        "photoType": "STRUCTURE_RIGHT_SIDE",
+        "section": "Exterior"
+    },
+    {
+        "id": "31153322",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Front view",
+        "photoCaption": "Structure Front View",
+        "photoType": "VIEW_FRONT",
+        "section": "Exterior"
+    },
+    {
+        "id": "76605765",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Rear view",
+        "photoCaption": "Structure Rear View",
+        "photoType": "VIEW_REAR",
+        "section": "Exterior"
+    },
+    {
+        "id": "26196987",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Left view",
+        "photoCaption": "Structure Left View",
+        "photoType": "VIEW_LEFT_SIDE",
+        "section": "Exterior"
+    },
+    {
+        "id": "86887554",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Right view",
+        "photoCaption": "Structure Right View",
+        "photoType": "VIEW_RIGHT_SIDE",
+        "section": "Exterior"
+    },
+    {
+        "id": "27120000",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Cooling system",
+        "photoCaption": "Cooling system",
+        "photoType": "COOLING_SYSTEM",
+        "section": "Heating/Cooling"
+    },
+    {
+        "id": "57857262",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Heating system",
+        "photoCaption": "Heating System",
+        "photoType": "HEATING_SYSTEM",
+        "section": "Heating/Cooling"
+    },
+    {
+        "id": "77267985",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Mechanical deficiency",
+        "photoCaption": "Mechanical Deficiency",
+        "photoType": "MECHANICAL_DEFICIENCY",
+        "section": "Damage/Condition &amp; Quality"
+    },
+    {
+        "id": "57757287",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Exterior update",
+        "photoCaption": "EXTERIOR_UPDATE",
+        "photoType": "OTHER",
+        "section": "Exterior"
+    },
+    {
+        "id": "62784776",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Exterior feature",
+        "photoCaption": "Exterior Feature",
+        "photoType": "EXTERIOR_FEATURE",
+        "section": "Exterior"
+    },
+    {
+        "id": "57185582",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Exterior deficiency",
+        "photoCaption": "Exterior Deficiency",
+        "photoType": "EXTERIOR_DEFICIENCY",
+        "section": "Exterior"
+    },
+    {
+        "id": "70373770",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Room",
+        "photoCaption": "Room",
+        "photoType": "ROOM",
+        "section": "Interior"
+    },
+    {
+        "comment": "photoType is prefixed with interiorUpdatedComponent",
+        "id": "14713244",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Interior update",
+        "photoCaption": "Interior Update",
+        "photoType": "INTERIOR_UPDATE",
+        "section": "Interior"
+    },
+    {
+        "comment": "photoType is prefixed with deficiencyName",
+        "id": "12310375",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Room deficiency",
+        "photoCaption": "Room Deficiency",
+        "photoType": "INTERIOR_DEFICIENCY",
+        "section": "Interior"
+    },
+    {
+        "id": "27955512",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Street address",
+        "photoCaption": "Street Address",
+        "photoType": "STREET_ADDRESS",
+        "section": "Exterior"
+    },
+    {
+        "id": "17756571",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Exterior photo",
+        "photoCaption": "Exterior Photo",
+        "photoType": "OTHER",
+        "section": "Exterior"
+    },
+    {
+        "id": "52713517",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Interior photo",
+        "photoCaption": "Interior Photo",
+        "photoType": "OTHER",
+        "section": "Interior"
+    },
+    {
+        "comment": "photoType is prefixed with carStorageUpdatedComponent",
+        "id": "02858907",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Car storage update",
+        "photoCaption": "Car Storage Update",
+        "photoType": "CARSTORAGE_UPDATE",
+        "section": "Parking"
+    },
+    {
+        "comment": "photoType is prefixed with deficiencyName",
+        "id": "15255426",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Car storage deficiency",
+        "photoCaption": "Car Storage Deficiency",
+        "photoType": "CARSTORAGE_DEFICIENCY",
+        "section": "Parking"
+    },
+    {
+        "id": "82588728",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Undermaintained road",
+        "photoCaption": "Undermaintained Road",
+        "photoType": "ROAD_UNDER_MAINTAINED",
+        "section": "Parking"
+    },
+    {
+        "id": "97414751",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Water front photo",
+        "photoCaption": "Water Front Photo",
+        "photoType": "WATERFRONT_SITE_IMPROVEMENTS",
+        "section": "Utilities"
+    },
+    {
+        "id": "59552929",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Adverse site condition",
+        "photoCaption": "Adverse Site Condition",
+        "photoType": "ADVERSE_SITE_CONDITIONS",
+        "section": "Utilities"
+    },
+    {
+        "id": "01870950",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Ancillary location photo",
+        "photoCaption": "Ancillary Location Photo",
+        "photoType": "ADJACENT_INFLUENCE",
+        "section": "Neighborhood Influences"
+    },
+    {
+        "id": "59797247",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Prominant location photo",
+        "photoCaption": "Prominant Location Photo",
+        "photoType": "ADJACENT_INFLUENCE",
+        "section": "Neighborhood Influences"
+    },
+    {
+        "id": "55112714",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Ancillary view",
+        "photoCaption": "Ancillary View",
+        "photoType": "ANCILLARY_VIEW",
+        "section": "Neighborhood Influences"
+    },
+    {
+        "id": "79259702",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Prominent view",
+        "photoCaption": "Prominent View",
+        "photoType": "PROMINENT_VIEW",
+        "section": "Neighborhood Influences"
+    },
+    {
+        "id": "77665316",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Non residential use",
+        "photoCaption": "Non Residential Use",
+        "photoType": "NONRESIDENTIAL_USE",
+        "section": "Neighborhood Influences"
+    },
+    {
+        "id": "41108871",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Site improvements",
+        "photoCaption": "Site Improvements",
+        "photoType": "SITE_IMPROVEMENTS",
+        "section": "Neighborhood Influences"
+    },
+    {
+        "id": "33098544",
+        "fieldType": "photo",
+        "isRequired": false,
+        "labelText": "Inground pool concerns",
+        "photoCaption": "Inground Pool Concerns",
+        "photoType": "INGROUND_POOL_CONCERNS",
+        "section": "Exterior"
+    },
+    {
+        "id": "0000000",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Order",
+        "photoCaption": "Order",
+        "photoType": "Order",
+        "section": "Order"
+    },
+    {
+        "id": "0000001",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Parking",
+        "photoCaption": "Parking",
+        "photoType": "Parking",
+        "section": "Parking"
+    },
+    {
+        "id": "0000002",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "General",
+        "photoCaption": "General",
+        "photoType": "General",
+        "section": "General"
+    },
+    {
+        "id": "0000003",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Utilities",
+        "photoCaption": "Utilities",
+        "photoType": "Utilities",
+        "section": "Utilities"
+    },
+    {
+        "id": "0000004",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Neighborhood influences",
+        "photoCaption": "Neighborhood Influences",
+        "photoType": "Neighborhood Influences",
+        "section": "Neighborhood Influences"
+    },
+    {
+        "id": "0000005",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Exterior",
+        "photoCaption": "Exterior",
+        "photoType": "Exterior",
+        "section": "Exterior"
+    },
+    {
+        "id": "0000006",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Interior",
+        "photoCaption": "Interior",
+        "photoType": "Interior",
+        "section": "Interior"
+    },
+    {
+        "id": "0000007",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Appliances",
+        "photoCaption": "Appliances",
+        "photoType": "Appliances",
+        "section": "Appliances"
+    },
+    {
+        "id": "0000008",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Foundation",
+        "photoCaption": "Foundation",
+        "photoType": "Foundation",
+        "section": "Foundation"
+    },
+    {
+        "id": "0000009",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Basement",
+        "photoCaption": "Basement",
+        "photoType": "Basement",
+        "section": "Basement"
+    },
+    {
+        "id": "00000010",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Attic",
+        "photoCaption": "Attic",
+        "photoType": "Attic",
+        "section": "Attic"
+    },
+    {
+        "id": "00000011",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Heating/cooling",
+        "photoCaption": "Heating/Cooling",
+        "photoType": "Heating/Cooling",
+        "section": "Heating/Cooling"
+    },
+    {
+        "id": "00000012",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Amenities",
+        "photoCaption": "Amenities",
+        "photoType": "Amenities",
+        "section": "Amenities"
+    },
+    {
+        "id": "00000013",
+        "fieldType": "photo",
+        "isRequired": true,
+        "labelText": "Damage/condition and quality",
+        "photoCaption": "Damage/Condition &amp; Quality",
+        "photoType": "Damage/Condition &amp; Quality",
+        "section": "Damage/Condition &amp; Quality"
+    }
+]

@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FirstAm Inspection",
+    "slug": "firstam-inspection",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "primaryColor": "#ffffff",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "bundleIdentifier": "com.salsitasoft.firstam.dev",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.salsitasoft.firstam.dev"
+    }
+  }
+}

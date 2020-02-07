@@ -1,0 +1,75 @@
+version: 2
+jobs:
+  firstam-ci-test:
+    working_directory: ~/app
+    docker:
+      - image: circleci/node:10.16.0
+
+    steps:
+      - checkout
+
+      - run:
+          name: Fill environment variables
+          command: ./scripts/fill-envs.sh
+
+      - run:
+          name: NPM install
+          command: npm ci
+
+      - run:
+          name: NPM test
+          command: npm run test
+
+  firstam-mobile-build:
+    working_directory: ~/app
+    docker:
+      - image: circleci/node:10.16.0
+
+    steps:
+      - checkout
+
+      - run:
+          name: Fill environment variables
+          command: ./scripts/fill-envs.sh
+
+      - run:
+          name: Set versions for mobile builds
+          command: ./scripts/set-version.sh
+
+      - run:
+          name: NPM install
+          command: npm ci
+
+      - run:
+          name: NPM add expo-cli
+          command: npm i --save expo-cli
+
+      - run:
+          name: Expo login
+          command: npm run expo:login
+
+      - run:
+          name: Expo Publish
+          command: npm run build:publish
+
+      - run:
+          name: Expo trigger Android build
+          command: npm run build:android
+
+      - run:
+          name: Expo trigger iOS build
+          command: npm run build:ios
+
+workflows:
+  version: 2
+  firstam-workflows:
+    jobs:
+      - firstam-ci-test
+      - firstam-mobile-build:
+          filters:
+            branches:
+              only:
+                - develop
+                - master
+          requires:
+            - firstam-ci-test
